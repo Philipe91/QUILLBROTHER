@@ -1,0 +1,27 @@
+{
+  "preset": "ilustrado_cinematico",
+  "descricao": "Personagem de documentário ilustrado. Qualquer tema: troque estilo, rosto e acessórios. Cores são variáveis do design system do projeto.",
+  "personagens": {
+    "soldado_a": {
+      "papel": "veterano, atento, conduz a cena",
+      "proporcao": { "cabeca": 1.12 },
+      "rosto": { "barba": 0.28, "bigode": false },
+      "acessorios": { "capacete": "brodie", "mochila": true, "cantil": true, "arma": "fuzil" },
+      "estilo": { "pele": "var(--luz)", "peleSombra": "var(--ocre)", "cabelo": "var(--terra)", "tunica": "var(--oliva)", "tunicaEsc": "var(--musgo)", "calca": "var(--oliva)", "calcaEsc": "var(--musgo)", "perneira": "var(--musgo)", "bota": "var(--terra)", "couro": "var(--terra)", "lona": "var(--ocre)", "cinto": "var(--ocre)", "mochila": "var(--terra)", "rolo": "var(--ocre)", "capaceteEsc": "var(--musgo)", "capaceteLuz": "var(--oliva)" }
+    },
+    "soldado_b": {
+      "papel": "mais jovem, olha para o outro antes de agir",
+      "proporcao": { "cabeca": 1.18 },
+      "rosto": { "barba": 0, "bigode": true },
+      "acessorios": { "capacete": "brodie", "mochila": true, "cantil": true, "arma": "fuzil" },
+      "estilo": { "pele": "var(--luz)", "peleSombra": "var(--ocre)", "cabelo": "var(--sombra)", "tunica": "var(--musgo)", "tunicaEsc": "var(--sombra)", "calca": "var(--musgo)", "calcaEsc": "var(--sombra)", "perneira": "var(--oliva)", "bota": "var(--sombra)", "couro": "var(--terra)", "lona": "var(--terra-clara)", "cinto": "var(--terra-clara)", "mochila": "var(--oliva)", "rolo": "var(--terra-clara)", "capaceteEsc": "var(--musgo)", "capaceteLuz": "var(--oliva)" }
+    },
+    "civil_exemplo": {
+      "papel": "prova de reuso: outro gênero de documentário, sem arma nem capacete",
+      "proporcao": { "cabeca": 1.15 },
+      "rosto": { "barba": 0.5, "bigode": true },
+      "acessorios": { "capacete": null, "mochila": false, "cantil": false, "arma": null },
+      "estilo": { "pele": "var(--terra-clara)", "peleSombra": "var(--ocre)", "cabelo": "var(--sombra)", "tunica": "var(--vinho)", "tunicaEsc": "var(--terra)", "calca": "var(--azul-noite)", "calcaEsc": "var(--sombra)", "perneira": null, "bota": "var(--sombra)", "couro": "var(--terra)", "lona": "var(--ocre)", "cinto": "var(--terra)", "mochila": "var(--terra)", "rolo": "var(--ocre)", "capaceteEsc": "var(--musgo)", "capaceteLuz": "var(--oliva)" }
+    }
+  }
+}

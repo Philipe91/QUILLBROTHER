@@ -1,0 +1,772 @@
+{
+ "duracao": 15.27,
+ "ambiente": "campo",
+ "lufs": -16,
+ "voz": [
+  {
+   "t": 0.35,
+   "arquivo": "assets/audio/voz/l1.mp3"
+  },
+  {
+   "t": 12.489999999999998,
+   "arquivo": "assets/audio/voz/l2.mp3"
+  }
+ ],
+ "ambientes": [
+  {
+   "som": "vento",
+   "ini": 0,
+   "fim": 11.969999999999999,
+   "db": -12,
+   "fade": 0.5,
+   "off": 12,
+   "corte": 9000
+  },
+  {
+   "som": "fogo",
+   "ini": 4.02,
+   "fim": 11.87,
+   "db": -26,
+   "fade": 0.8,
+   "off": 4,
+   "corte": 3000
+  },
+  {
+   "som": "interior_sala",
+   "ini": 11.87,
+   "fim": 15.27,
+   "db": -24,
+   "fade": 0.35,
+   "off": 2,
+   "corte": 5000
+  }
+ ],
+ "musica": {
+  "som": "trilha_tensao",
+  "off": 14,
+  "corte": 5000,
+  "automacao": [
+   [
+    0,
+    -60
+   ],
+   [
+    0.9,
+    -15
+   ],
+   [
+    4.02,
+    -14
+   ],
+   [
+    7.069999999999999,
+    -11
+   ],
+   [
+    8.129999999999999,
+    -9
+   ],
+   [
+    8.209999999999999,
+    -22
+   ],
+   [
+    9.09,
+    -9
+   ],
+   [
+    11.12,
+    -9
+   ],
+   [
+    11.87,
+    -12
+   ],
+   [
+    14.07,
+    -15
+   ],
+   [
+    15.17,
+    -70
+   ]
+  ]
+ },
+ "eventos": [
+  {
+   "t": 0.4333,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.46,
+   "db": -2,
+   "origem": "Soldado B: pé a tocou o chão"
+  },
+  {
+   "t": 0.4667,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.033,
+   "db": 0,
+   "origem": "Soldado A: pé b tocou o chão"
+  },
+  {
+   "t": 0.4683,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.46,
+   "db": -10,
+   "origem": "Soldado B: equipamento acompanha o passo"
+  },
+  {
+   "t": 0.5017,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.033,
+   "db": -8,
+   "origem": "Soldado A: equipamento acompanha o passo"
+  },
+  {
+   "t": 1,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.45,
+   "db": -2,
+   "origem": "Soldado B: pé b tocou o chão"
+  },
+  {
+   "t": 1.02,
+   "som": "pano",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.45,
+   "db": -9,
+   "origem": "Soldado B: roupa acompanha o passo"
+  },
+  {
+   "t": 1.0333,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.023,
+   "db": 0,
+   "origem": "Soldado A: pé a tocou o chão"
+  },
+  {
+   "t": 1.0533,
+   "som": "pano",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.023,
+   "db": -7,
+   "origem": "Soldado A: roupa acompanha o passo"
+  },
+  {
+   "t": 1.5333,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.45,
+   "db": -2,
+   "origem": "Soldado B: pé a tocou o chão"
+  },
+  {
+   "t": 1.5683,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.45,
+   "db": -10,
+   "origem": "Soldado B: equipamento acompanha o passo"
+  },
+  {
+   "t": 1.6,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.022,
+   "db": 0,
+   "origem": "Soldado A: pé b tocou o chão"
+  },
+  {
+   "t": 1.635,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.022,
+   "db": -8,
+   "origem": "Soldado A: equipamento acompanha o passo"
+  },
+  {
+   "t": 2.1,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.45,
+   "db": -2,
+   "origem": "Soldado B: pé b tocou o chão"
+  },
+  {
+   "t": 2.12,
+   "som": "pano",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.45,
+   "db": -9,
+   "origem": "Soldado B: roupa acompanha o passo"
+  },
+  {
+   "t": 2.1667,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.022,
+   "db": 0,
+   "origem": "Soldado A: pé a tocou o chão"
+  },
+  {
+   "t": 2.1867,
+   "som": "pano",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.022,
+   "db": -7,
+   "origem": "Soldado A: roupa acompanha o passo"
+  },
+  {
+   "t": 2.6667,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.449,
+   "db": -2,
+   "origem": "Soldado B: pé a tocou o chão"
+  },
+  {
+   "t": 2.7017,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.449,
+   "db": -10,
+   "origem": "Soldado B: equipamento acompanha o passo"
+  },
+  {
+   "t": 2.7333,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.022,
+   "db": 0,
+   "origem": "Soldado A: pé b tocou o chão"
+  },
+  {
+   "t": 2.7683,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.022,
+   "db": -8,
+   "origem": "Soldado A: equipamento acompanha o passo"
+  },
+  {
+   "t": 3.2333,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.449,
+   "db": -2,
+   "origem": "Soldado B: pé b tocou o chão"
+  },
+  {
+   "t": 3.2533,
+   "som": "pano",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.449,
+   "db": -9,
+   "origem": "Soldado B: roupa acompanha o passo"
+  },
+  {
+   "t": 3.2667,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.023,
+   "db": 0,
+   "origem": "Soldado A: pé a tocou o chão"
+  },
+  {
+   "t": 3.2867,
+   "som": "pano",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.023,
+   "db": -7,
+   "origem": "Soldado A: roupa acompanha o passo"
+  },
+  {
+   "t": 3.8,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.449,
+   "db": -2,
+   "origem": "Soldado B: pé a tocou o chão"
+  },
+  {
+   "t": 3.8333,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.022,
+   "db": 0,
+   "origem": "Soldado A: pé b tocou o chão"
+  },
+  {
+   "t": 3.835,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.55,
+   "pan": -0.449,
+   "db": -10,
+   "origem": "Soldado B: equipamento acompanha o passo"
+  },
+  {
+   "t": 3.8683,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.42,
+   "pan": -0.022,
+   "db": -8,
+   "origem": "Soldado A: equipamento acompanha o passo"
+  },
+  {
+   "t": 4.1867,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.16,
+   "pan": -0.104,
+   "db": 0,
+   "origem": "Soldado A: pé b tocou o chão"
+  },
+  {
+   "t": 4.2217,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.16,
+   "pan": -0.104,
+   "db": -8,
+   "origem": "Soldado A: equipamento acompanha o passo"
+  },
+  {
+   "t": 4.4533,
+   "som": "artilharia",
+   "bus": "efeitos",
+   "dist": 0.93,
+   "pan": 0.55,
+   "db": 5,
+   "origem": "cena 2: artilharia distante, ele para e procura"
+  },
+  {
+   "t": 4.7533,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.16,
+   "pan": -0.104,
+   "db": 0,
+   "origem": "Soldado A: pé a tocou o chão"
+  },
+  {
+   "t": 4.7733,
+   "som": "pano",
+   "bus": "efeitos",
+   "dist": 0.16,
+   "pan": -0.104,
+   "db": -7,
+   "origem": "Soldado A: roupa acompanha o passo"
+  },
+  {
+   "t": 5.3533,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.16,
+   "pan": -0.104,
+   "db": 0,
+   "origem": "Soldado A: pé b tocou o chão"
+  },
+  {
+   "t": 5.3883,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.16,
+   "pan": -0.104,
+   "db": -8,
+   "origem": "Soldado A: equipamento acompanha o passo"
+  },
+  {
+   "t": 5.4833,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.12,
+   "pan": -0.1,
+   "db": -2,
+   "origem": "cena 2: mochila assenta ao parar"
+  },
+  {
+   "t": 5.5433,
+   "som": "pano",
+   "bus": "efeitos",
+   "dist": 0.12,
+   "pan": -0.1,
+   "db": -2,
+   "origem": "cena 2: roupa assenta"
+  },
+  {
+   "t": 8.19,
+   "som": "explosao_longe",
+   "bus": "efeitos",
+   "dist": 0.74,
+   "pan": 0.5,
+   "db": 5,
+   "origem": "cena 3: explosão vista antes, som chega 0,5 s depois"
+  },
+  {
+   "t": 8.24,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.05,
+   "pan": -0.2,
+   "db": -3,
+   "origem": "cena 3: ele se encolhe"
+  },
+  {
+   "t": 8.29,
+   "som": "impacto_suave",
+   "bus": "transicoes",
+   "dist": 0.4,
+   "pan": 0.3,
+   "db": -5,
+   "origem": "cena 3: pressão no peito"
+  },
+  {
+   "t": 8.29,
+   "som": "pano",
+   "bus": "efeitos",
+   "dist": 0.05,
+   "pan": -0.2,
+   "db": -1,
+   "origem": "cena 3: ombros sobem"
+  },
+  {
+   "t": 10.64,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.2,
+   "pan": 0.2,
+   "db": 0,
+   "origem": "cena 4: A ajeita o fuzil e sai"
+  },
+  {
+   "t": 11.3533,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.24,
+   "pan": 0.292,
+   "db": 0,
+   "origem": "Soldado A: pé b tocou o chão"
+  },
+  {
+   "t": 11.3883,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.24,
+   "pan": 0.292,
+   "db": -8,
+   "origem": "Soldado A: equipamento acompanha o passo"
+  },
+  {
+   "t": 11.63,
+   "som": "whoosh",
+   "bus": "transicoes",
+   "dist": 0.15,
+   "pan": -0.1,
+   "db": -2,
+   "origem": "transição: antecede o corte"
+  },
+  {
+   "t": 11.9533,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.24,
+   "pan": 0.292,
+   "db": 0,
+   "origem": "Soldado A: pé a tocou o chão"
+  },
+  {
+   "t": 11.9733,
+   "som": "pano",
+   "bus": "efeitos",
+   "dist": 0.24,
+   "pan": 0.292,
+   "db": -7,
+   "origem": "Soldado A: roupa acompanha o passo"
+  },
+  {
+   "t": 12.07,
+   "som": "papel",
+   "bus": "efeitos",
+   "dist": 0.06,
+   "pan": -0.15,
+   "db": 0,
+   "origem": "cena 5: papel entra"
+  },
+  {
+   "t": 12.15,
+   "som": "impacto_suave",
+   "bus": "transicoes",
+   "dist": 0.1,
+   "pan": 0,
+   "db": -3,
+   "origem": "transição: documento pousa"
+  },
+  {
+   "t": 12.1533,
+   "som": "passo_terra",
+   "bus": "efeitos",
+   "dist": 0.28,
+   "pan": -0.354,
+   "db": -1,
+   "origem": "Soldado B: pé b tocou o chão"
+  },
+  {
+   "t": 12.1883,
+   "som": "equipamento",
+   "bus": "efeitos",
+   "dist": 0.28,
+   "pan": -0.354,
+   "db": -9,
+   "origem": "Soldado B: equipamento acompanha o passo"
+  },
+  {
+   "t": 12.414,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -1,
+   "origem": "cena 5: letra \"H\" apareceu"
+  },
+  {
+   "t": 12.4663,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -1,
+   "origem": "cena 5: letra \"O\" apareceu"
+  },
+  {
+   "t": 12.5063,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -1,
+   "origem": "cena 5: letra \"S\" apareceu"
+  },
+  {
+   "t": 12.562,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -1,
+   "origem": "cena 5: letra \"T\" apareceu"
+  },
+  {
+   "t": 12.5996,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -1,
+   "origem": "cena 5: letra \"I\" apareceu"
+  },
+  {
+   "t": 12.6545,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -1,
+   "origem": "cena 5: letra \"L\" apareceu"
+  },
+  {
+   "t": 12.6923,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -1,
+   "origem": "cena 5: letra \"I\" apareceu"
+  },
+  {
+   "t": 12.7446,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -1,
+   "origem": "cena 5: letra \"T\" apareceu"
+  },
+  {
+   "t": 12.7906,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -1,
+   "origem": "cena 5: letra \"I\" apareceu"
+  },
+  {
+   "t": 12.8369,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -1,
+   "origem": "cena 5: letra \"E\" apareceu"
+  },
+  {
+   "t": 12.8804,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -1,
+   "origem": "cena 5: letra \"S\" apareceu"
+  },
+  {
+   "t": 13.0129,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \"C\" apareceu"
+  },
+  {
+   "t": 13.0619,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \"E\" apareceu"
+  },
+  {
+   "t": 13.1057,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \"A\" apareceu"
+  },
+  {
+   "t": 13.1526,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \"S\" apareceu"
+  },
+  {
+   "t": 13.1974,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \"E\" apareceu"
+  },
+  {
+   "t": 13.2884,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \"A\" apareceu"
+  },
+  {
+   "t": 13.3404,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \"T\" apareceu"
+  },
+  {
+   "t": 13.434,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \"1\" apareceu"
+  },
+  {
+   "t": 13.481,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \"1\" apareceu"
+  },
+  {
+   "t": 13.5223,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \":\" apareceu"
+  },
+  {
+   "t": 13.5727,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \"0\" apareceu"
+  },
+  {
+   "t": 13.6146,
+   "som": "tecla",
+   "bus": "efeitos",
+   "dist": 0.08,
+   "pan": 0.28,
+   "db": -0.5,
+   "origem": "cena 5: letra \"0\" apareceu"
+  },
+  {
+   "t": 13.914,
+   "som": "carimbo",
+   "bus": "efeitos",
+   "dist": 0.05,
+   "pan": -0.12,
+   "db": 0,
+   "origem": "cena 5: carimbo toca o papel"
+  }
+ ]
+}

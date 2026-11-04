@@ -1,0 +1,34 @@
+{
+ "quadros": 66,
+ "dif_v2_v5_pe_px": {
+  "max": 0.7,
+  "media": 0.39,
+  "n": 66
+ },
+ "dif_v2_v5_mao_px": {
+  "max": 0.49,
+  "media": 0.22,
+  "n": 66
+ },
+ "dif_v2_v5_fuzil_px": {
+  "max": 0.63,
+  "media": 0.28,
+  "n": 66
+ },
+ "pe_plantado_v2": {
+  "trechos": 2,
+  "maior_andanca_px": 1.19
+ },
+ "pe_plantado_v5": {
+  "trechos": 2,
+  "maior_andanca_px": 1.29
+ },
+ "mao_fuzil_v2": {
+  "distancia_media_px": 21.03,
+  "variacao_px": 1.04
+ },
+ "mao_fuzil_v5": {
+  "distancia_media_px": 20.81,
+  "variacao_px": 1.53
+ }
+}

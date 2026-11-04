@@ -1,0 +1,315 @@
+{
+ "nota": "Sons só CC0 ou produzidos localmente. Sons CC0 não foram ouvidos por uma pessoa; conferir antes de publicar.",
+ "sons": {
+  "passo_terra": {
+   "arquivo": "sons/passo_terra.mp3",
+   "categoria": "movimentacao",
+   "nivel": -9,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Footsteps on Wooden Floor.aif",
+   "autor": "ftpalad",
+   "fonte": "https://freesound.org/people/ftpalad/sounds/119914",
+   "modo": "fatias"
+  },
+  "passo_terra_2": {
+   "arquivo": "sons/passo_terra_2.mp3",
+   "categoria": "movimentacao",
+   "nivel": -9,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Footsteps Metallic Muffled Louder.wav",
+   "autor": "RutgerMuller",
+   "fonte": "https://freesound.org/people/RutgerMuller/sounds/50724",
+   "modo": "fatias"
+  },
+  "explosao_longe": {
+   "arquivo": "sons/explosao_longe.mp3",
+   "categoria": "guerra",
+   "nivel": 2,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Distant Explosion",
+   "autor": "BBQGiraffe",
+   "fonte": "https://freesound.org/people/BBQGiraffe/sounds/523224"
+  },
+  "explosao_longe_2": {
+   "arquivo": "sons/explosao_longe_2.mp3",
+   "categoria": "guerra",
+   "nivel": 2,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "S18-07 Medium distant explosions; cluster.wav",
+   "autor": "craigsmith",
+   "fonte": "https://freesound.org/people/craigsmith/sounds/674900"
+  },
+  "explosao_perto": {
+   "arquivo": "sons/explosao_perto.mp3",
+   "categoria": "guerra",
+   "nivel": 0,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Swoosh Explosion",
+   "autor": "Electroviolence",
+   "fonte": "https://freesound.org/people/Electroviolence/sounds/234555"
+  },
+  "artilharia": {
+   "arquivo": "sons/artilharia.mp3",
+   "categoria": "guerra",
+   "nivel": -2,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Cannon shot",
+   "autor": "SamsterBirdies",
+   "fonte": "https://freesound.org/people/SamsterBirdies/sounds/467883"
+  },
+  "metralhadora": {
+   "arquivo": "sons/metralhadora.mp3",
+   "categoria": "guerra",
+   "nivel": -6,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Machine Gun Burst",
+   "autor": "qubodup",
+   "fonte": "https://freesound.org/people/qubodup/sounds/482121"
+  },
+  "bomba_assobio": {
+   "arquivo": "sons/bomba_assobio.mp3",
+   "categoria": "guerra",
+   "nivel": -8,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Bomb Dropping.wav",
+   "autor": "morganpurkis",
+   "fonte": "https://freesound.org/people/morganpurkis/sounds/398255"
+  },
+  "whoosh": {
+   "arquivo": "sons/whoosh.mp3",
+   "categoria": "transicao",
+   "nivel": -9,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Swosh swoosh whoosh air sound, free, high quality",
+   "autor": "qubodup",
+   "fonte": "https://freesound.org/people/qubodup/sounds/60026"
+  },
+  "whoosh_2": {
+   "arquivo": "sons/whoosh_2.mp3",
+   "categoria": "transicao",
+   "nivel": -9,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Swipe Whoosh",
+   "autor": "qubodup",
+   "fonte": "https://freesound.org/people/qubodup/sounds/60007"
+  },
+  "papel": {
+   "arquivo": "sons/papel.mp3",
+   "categoria": "documento",
+   "nivel": -10,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Paper Rustle",
+   "autor": "BenjaminNelan",
+   "fonte": "https://freesound.org/people/BenjaminNelan/sounds/353125",
+   "ini": 0,
+   "dur": 1.1
+  },
+  "papel_2": {
+   "arquivo": "sons/papel_2.mp3",
+   "categoria": "documento",
+   "nivel": -12,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "rustle.paper_Tear_9.aif",
+   "autor": "batchku",
+   "fonte": "https://freesound.org/people/batchku/sounds/10428",
+   "ini": 0,
+   "dur": 1.1
+  },
+  "tecla": {
+   "arquivo": "sons/tecla.mp3",
+   "categoria": "documento",
+   "nivel": -12,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Typewriter Bell.wav",
+   "autor": "ramsamba",
+   "fonte": "https://freesound.org/people/ramsamba/sounds/318687",
+   "modo": "fatias"
+  },
+  "relogio": {
+   "arquivo": "sons/relogio.mp3",
+   "categoria": "documento",
+   "nivel": -18,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Clock ticking",
+   "autor": "olver",
+   "fonte": "https://freesound.org/people/olver/sounds/130388"
+  },
+  "vento": {
+   "arquivo": "sons/vento.mp3",
+   "categoria": "ambiente",
+   "nivel": -22,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Temple Cave Myts Storm",
+   "autor": "szegvari",
+   "fonte": "https://freesound.org/people/szegvari/sounds/540836"
+  },
+  "multidao_longe": {
+   "arquivo": "sons/multidao_longe.mp3",
+   "categoria": "ambiente",
+   "nivel": -26,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Crowd Murmuring",
+   "autor": "DigestContent",
+   "fonte": "https://freesound.org/people/DigestContent/sounds/444900"
+  },
+  "fogo": {
+   "arquivo": "sons/fogo.mp3",
+   "categoria": "ambiente",
+   "nivel": -24,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Fire Crackling",
+   "autor": "AntumDeluge",
+   "fonte": "https://freesound.org/people/AntumDeluge/sounds/188038"
+  },
+  "trilha_tensao": {
+   "arquivo": "sons/trilha_tensao.mp3",
+   "categoria": "musica",
+   "nivel": -22,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "ambient sounds 13.mp3",
+   "autor": "burning-mir",
+   "fonte": "https://freesound.org/people/burning-mir/sounds/117358"
+  },
+  "trilha_tensao_b": {
+   "arquivo": "sons/trilha_tensao_b.mp3",
+   "categoria": "musica",
+   "nivel": -22,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "ambient sounds 14.mp3",
+   "autor": "burning-mir",
+   "fonte": "https://freesound.org/people/burning-mir/sounds/117782"
+  },
+  "pano": {
+   "categoria": "movimentacao",
+   "nivel": -19,
+   "origem": "local",
+   "licenca": "produzido localmente",
+   "titulo": "ruído filtrado com envelope",
+   "autor": "Dark Engine",
+   "fonte": "motor/audio/mixer.py"
+  },
+  "equipamento": {
+   "categoria": "movimentacao",
+   "nivel": -21,
+   "origem": "local",
+   "licenca": "produzido localmente",
+   "titulo": "parciais metálicas curtas",
+   "autor": "Dark Engine",
+   "fonte": "motor/audio/mixer.py"
+  },
+  "impacto_suave": {
+   "categoria": "transicao",
+   "nivel": -6,
+   "origem": "local",
+   "licenca": "produzido localmente",
+   "titulo": "grave descendente",
+   "autor": "Dark Engine",
+   "fonte": "motor/audio/mixer.py"
+  },
+  "carimbo": {
+   "categoria": "documento",
+   "nivel": -6,
+   "origem": "local",
+   "licenca": "produzido localmente",
+   "titulo": "golpe curto",
+   "autor": "Dark Engine",
+   "fonte": "motor/audio/mixer.py"
+  },
+  "passo_madeira": {
+   "arquivo": "sons/passo_madeira.mp3",
+   "categoria": "movimentacao",
+   "nivel": -14,
+   "modo": "fatias",
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "R22-31-Footsteps Wood Floor with Creaks.wav",
+   "autor": "craigsmith",
+   "fonte": "https://freesound.org/people/craigsmith/sounds/480670"
+  },
+  "passo_pedra": {
+   "arquivo": "sons/passo_pedra.mp3",
+   "categoria": "movimentacao",
+   "nivel": -14,
+   "modo": "fatias",
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Footsteps stone + sneaker",
+   "autor": "xkeril",
+   "fonte": "https://freesound.org/people/xkeril/sounds/677069"
+  },
+  "passo_lama": {
+   "arquivo": "sons/passo_lama.mp3",
+   "categoria": "movimentacao",
+   "nivel": -14,
+   "modo": "fatias",
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Footsteps-Mud&Grass",
+   "autor": "jonccox",
+   "fonte": "https://freesound.org/people/jonccox/sounds/231317"
+  },
+  "chuva": {
+   "arquivo": "sons/chuva.mp3",
+   "categoria": "ambiente",
+   "nivel": -24,
+   "modo": null,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Rain Ambience",
+   "autor": "nick121087",
+   "fonte": "https://freesound.org/people/nick121087/sounds/234317"
+  },
+  "floresta": {
+   "arquivo": "sons/floresta.mp3",
+   "categoria": "ambiente",
+   "nivel": -24,
+   "modo": null,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "130821 Morning summer forest ambience birds wind distant cars, cottage ON",
+   "autor": "TRP",
+   "fonte": "https://freesound.org/people/TRP/sounds/715684"
+  },
+  "interior_sala": {
+   "arquivo": "sons/interior_sala.mp3",
+   "categoria": "ambiente",
+   "nivel": -24,
+   "modo": null,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Room Tone Apartment Small Bachelor",
+   "autor": "leonelmail",
+   "fonte": "https://freesound.org/people/leonelmail/sounds/329568"
+  },
+  "cidade_antiga": {
+   "arquivo": "sons/cidade_antiga.mp3",
+   "categoria": "ambiente",
+   "nivel": -24,
+   "modo": null,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Town Square Ambience.aif",
+   "autor": "ftpalad",
+   "fonte": "https://freesound.org/people/ftpalad/sounds/119934"
+  }
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "motor_identico_ao_checkpoint": true,
+ "hash_motor": "36b8282e13d3668a",
+ "deslize_marcha": 0.097,
+ "deslize_corrida": 0.057,
+ "qa_marcha_v2": {
+  "deslize_mm_local": 0,
+  "altura_sola": 0,
+  "erroIK": 0,
+  "erroMao": 0,
+  "erroContatoTotal": 0,
+  "apoio_pct": 60,
+  "apoio_duplo_pct": 20
+ },
+ "qa_corrida_v2": {
+  "deslize_mm_local": 0,
+  "altura_sola": 0,
+  "erroIK": 0,
+  "erroMao": 0,
+  "erroContatoTotal": 0,
+  "apoio_pct": 36,
+  "apoio_duplo_pct": 0
+ }
+}

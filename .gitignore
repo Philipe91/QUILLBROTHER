@@ -9,3 +9,8 @@ blend/
 __pycache__/
 *.pyc
 renders/
+*.mp4
+estilos/v5_personagens/assets/audio/stems/
+estilos/v5_personagens/qa/*/shot/
+estilos/v5_personagens/qa/*/assets/
+estilos/*/node_modules

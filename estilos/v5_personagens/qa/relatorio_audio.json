@@ -1,0 +1,172 @@
+{
+ "mp4": {
+  "lufs": "-16.4",
+  "lra": "3.6",
+  "pico_db": "-1.9"
+ },
+ "canais": {
+  "voz": {
+   "lufs": "-16.7",
+   "lra": "8.8",
+   "pico_db": "-3.6"
+  },
+  "musica": {
+   "lufs": "-30.9",
+   "lra": "12.9",
+   "pico_db": "-18.5"
+  },
+  "ambiente": {
+   "lufs": "-32.2",
+   "lra": "6.6",
+   "pico_db": "-18.6"
+  },
+  "efeitos": {
+   "lufs": "-22.3",
+   "lra": "15.2",
+   "pico_db": "-2.7"
+  },
+  "transicoes": {
+   "lufs": "-34.4",
+   "lra": "6.1",
+   "pico_db": "-20.5"
+  }
+ },
+ "ducking": {
+  "musica": {
+   "com_voz_db": -42.7,
+   "sem_voz_db": -33.3
+  },
+  "ambiente": {
+   "com_voz_db": -39.4,
+   "sem_voz_db": -32.6
+  },
+  "efeitos": {
+   "com_voz_db": -36.1,
+   "sem_voz_db": -25.7
+  }
+ },
+ "voz_acima_da_trilha_db": 23.3,
+ "voz_acima_dos_efeitos_db": 16.7,
+ "sincronia_eventos": {
+  "medidos": 44,
+  "erro_medio_ms": 12.2,
+  "erro_max_ms": 34.9,
+  "um_quadro_ms": 33.3
+ },
+ "mp4_x_mixagem_defasagem_ms": 0.0,
+ "mp4_tem_som": true,
+ "efeitos_usados": [
+  {
+   "som": "tecla",
+   "vezes": 23,
+   "categoria": "documento",
+   "licenca": "cc0",
+   "autor": "ramsamba",
+   "fonte": "https://freesound.org/people/ramsamba/sounds/318687"
+  },
+  {
+   "som": "passo_terra",
+   "vezes": 20,
+   "categoria": "movimentacao",
+   "licenca": "cc0",
+   "autor": "ftpalad",
+   "fonte": "https://freesound.org/people/ftpalad/sounds/119914"
+  },
+  {
+   "som": "equipamento",
+   "vezes": 15,
+   "categoria": "movimentacao",
+   "licenca": "produzido localmente",
+   "autor": "Dark Engine",
+   "fonte": "motor/audio/mixer.py"
+  },
+  {
+   "som": "pano",
+   "vezes": 10,
+   "categoria": "movimentacao",
+   "licenca": "produzido localmente",
+   "autor": "Dark Engine",
+   "fonte": "motor/audio/mixer.py"
+  },
+  {
+   "som": "impacto_suave",
+   "vezes": 2,
+   "categoria": "transicao",
+   "licenca": "produzido localmente",
+   "autor": "Dark Engine",
+   "fonte": "motor/audio/mixer.py"
+  },
+  {
+   "som": "artilharia",
+   "vezes": 1,
+   "categoria": "guerra",
+   "licenca": "cc0",
+   "autor": "SamsterBirdies",
+   "fonte": "https://freesound.org/people/SamsterBirdies/sounds/467883"
+  },
+  {
+   "som": "explosao_longe",
+   "vezes": 1,
+   "categoria": "guerra",
+   "licenca": "cc0",
+   "autor": "BBQGiraffe",
+   "fonte": "https://freesound.org/people/BBQGiraffe/sounds/523224"
+  },
+  {
+   "som": "whoosh",
+   "vezes": 1,
+   "categoria": "transicao",
+   "licenca": "cc0",
+   "autor": "qubodup",
+   "fonte": "https://freesound.org/people/qubodup/sounds/60026"
+  },
+  {
+   "som": "papel",
+   "vezes": 1,
+   "categoria": "documento",
+   "licenca": "cc0",
+   "autor": "BenjaminNelan",
+   "fonte": "https://freesound.org/people/BenjaminNelan/sounds/353125"
+  },
+  {
+   "som": "carimbo",
+   "vezes": 1,
+   "categoria": "documento",
+   "licenca": "produzido localmente",
+   "autor": "Dark Engine",
+   "fonte": "motor/audio/mixer.py"
+  },
+  {
+   "som": "vento",
+   "vezes": 1,
+   "categoria": "ambiente",
+   "licenca": "cc0",
+   "autor": "szegvari",
+   "fonte": "https://freesound.org/people/szegvari/sounds/540836"
+  },
+  {
+   "som": "fogo",
+   "vezes": 1,
+   "categoria": "ambiente",
+   "licenca": "cc0",
+   "autor": "AntumDeluge",
+   "fonte": "https://freesound.org/people/AntumDeluge/sounds/188038"
+  },
+  {
+   "som": "interior_sala",
+   "vezes": 1,
+   "categoria": "ambiente",
+   "licenca": "cc0",
+   "autor": "leonelmail",
+   "fonte": "https://freesound.org/people/leonelmail/sounds/329568"
+  },
+  {
+   "som": "trilha_tensao",
+   "vezes": 1,
+   "categoria": "musica",
+   "licenca": "cc0",
+   "autor": "burning-mir",
+   "fonte": "https://freesound.org/people/burning-mir/sounds/117358"
+  }
+ ]
+}
