@@ -1,0 +1,51 @@
+<template>
+  <style>#root { position: absolute; inset: 0; }</style>
+  <div id="root" data-composition-id="s36" data-width="1920" data-height="1080" data-layout-allow-overflow data-layout-allow-overlap>
+    <div id="s36-w" class="cena" data-layout-allow-overflow data-layout-allow-overlap>
+
+    <div id="s36-fundo" class="camada" style="background:var(--azul-noite)" data-layout-ignore></div>
+    <div class="camada" id="s36-rel" data-layout-ignore><svg viewBox="0 0 1920 1080"><g transform="translate(1400,540)">
+      <circle r="250" fill="var(--sombra)"/><circle r="232" fill="var(--terra)"/><circle r="222" fill="var(--sombra)"/><rect x="-3" y="-214" width="6" height="34" fill="var(--pergaminho)" transform="rotate(0)"/><rect x="-3" y="-214" width="6" height="20" fill="var(--pergaminho)" transform="rotate(30)"/><rect x="-3" y="-214" width="6" height="20" fill="var(--pergaminho)" transform="rotate(60)"/><rect x="-3" y="-214" width="6" height="34" fill="var(--pergaminho)" transform="rotate(90)"/><rect x="-3" y="-214" width="6" height="20" fill="var(--pergaminho)" transform="rotate(120)"/><rect x="-3" y="-214" width="6" height="20" fill="var(--pergaminho)" transform="rotate(150)"/><rect x="-3" y="-214" width="6" height="34" fill="var(--pergaminho)" transform="rotate(180)"/><rect x="-3" y="-214" width="6" height="20" fill="var(--pergaminho)" transform="rotate(210)"/><rect x="-3" y="-214" width="6" height="20" fill="var(--pergaminho)" transform="rotate(240)"/><rect x="-3" y="-214" width="6" height="34" fill="var(--pergaminho)" transform="rotate(270)"/><rect x="-3" y="-214" width="6" height="20" fill="var(--pergaminho)" transform="rotate(300)"/><rect x="-3" y="-214" width="6" height="20" fill="var(--pergaminho)" transform="rotate(330)"/>
+      <g id="s36-hh" transform="rotate(329.5)"><rect x="-8" y="-118" width="16" height="130" fill="var(--creme)"/></g>
+      <g id="s36-hm" transform="rotate(354)"><rect x="-5" y="-186" width="10" height="200" fill="var(--creme)"/></g>
+      <g id="s36-hs"><rect x="-2" y="-200" width="4" height="240" fill="var(--vinho)"/></g><circle r="13" fill="var(--vinho)"/>
+    </g></svg></div>
+    <div id="s36-me" class="num-menos t-titulo"></div>
+    <div id="s36-gr" class="num-grande" data-layout-allow-overlap><span class="num-n t-titulo" style="font-size:300px">10:59</span><span class="num-u t-titulo"></span></div>
+    <div id="s36-ap" class="num-apoio t-apoio">One minute before the armistice</div>
+      <div id="s36-preto" class="preto" data-layout-ignore></div>
+    </div>
+  </div>
+  <script>
+  (function () {
+    const tl = gsap.timeline({ paused: true });
+    const DUR = 4.070;
+    
+    const osc = (alvo, de, ate, per, ini, fim) => { const n = Math.max(1, Math.round((fim - ini) / (per / 2))); tl.fromTo(alvo, { ...de, ...(ate.svgOrigin ? { svgOrigin: ate.svgOrigin } : {}) }, { ...ate, duration: (fim - ini) / n, ease: "sine.inOut", repeat: n - 1, yoyo: true }, ini); };
+    const ORIG = { svgOrigin: "0 0" };
+    // Toca as tabelas gravadas no build. Um tween por parte, com a curva vinda da tabela: sem milhares de tweens e repetível em qualquer seek.
+    function aplicar(pre, tab, t0) {
+      const FPS = 30;
+      const faixa = (sel, prop, a) => { const n = a.length - 1, d = n / FPS; const ease = (p) => { const f = Math.min(Math.max(p, 0), 1) * n, i = Math.floor(f); return i >= n ? a[n] : a[i] + (a[i + 1] - a[i]) * (f - i); }; const de = { [prop]: 0 }, ate = { [prop]: 1, ease, duration: d, immediateRender: true }; if (prop === "rotation") { de.svgOrigin = "0 0"; ate.svgOrigin = "0 0"; } tl.fromTo(sel, de, ate, t0); };
+      faixa("#" + pre + "-rt", "x", tab.rtx); faixa("#" + pre + "-rt", "y", tab.rty);
+      for (const n of Object.keys(tab)) { if (n !== "rtx" && n !== "rty") faixa("#" + pre + "-" + n, "rotation", tab[n]); }
+    }
+    
+
+    tl.fromTo("#s36-w", { scale: 1 }, { scale: 1.06, duration: DUR, ease: "none" }, 0);
+    tl.fromTo("#s36-me", { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: .3 }, 1.900);
+    tl.fromTo("#s36-gr", { opacity: 0, scale: .9, transformOrigin: "0% 60%" }, { opacity: 1, scale: 1, duration: .38, ease: "power3.out" }, 2.280);
+    tl.fromTo("#s36-ap", { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: .3 }, 2.220);
+    tl.fromTo("#s36-rel", { opacity: 0 }, { opacity: 1, duration: .4 }, 0);
+    tl.to("#s36-hs", { rotation: 6, ...ORIG, duration: .12, ease: "back.out(3)" }, 0.0);
+    tl.to("#s36-hs", { rotation: 12, ...ORIG, duration: .12, ease: "back.out(3)" }, 1.0);
+    tl.to("#s36-hs", { rotation: 18, ...ORIG, duration: .12, ease: "back.out(3)" }, 2.0);
+    tl.to("#s36-hs", { rotation: 24, ...ORIG, duration: .12, ease: "back.out(3)" }, 3.0);
+    tl.to("#s36-hs", { rotation: 30, ...ORIG, duration: .12, ease: "back.out(3)" }, 4.0);
+
+    tl.set("#s36-preto", { opacity: 1 }, 0); tl.to("#s36-preto", { opacity: 0, duration: 1, ease: "sine.inOut" }, 1.220);
+    tl.set({}, {}, DUR);
+    window.__timelines["s36"] = tl;
+  })();
+  </script>
+</template>

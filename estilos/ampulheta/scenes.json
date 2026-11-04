@@ -1,0 +1,139 @@
+{
+  "titulo": "Protótipo Ampulheta: os últimos minutos de Henry Gunther",
+  "nota": "Protótipo de 30 s. Fatos conferidos em docs/FONTES.md. narracao = texto na tela/transcrição; narracao_tts = grafia usada só para a voz.",
+  "voz": {
+    "id": "pm_alex",
+    "lang": "pt-br",
+    "velocidade": 0.92
+  },
+  "cenas": [
+    {
+      "id": "c0_s01",
+      "capitulo": 0,
+      "tipo": "mapa",
+      "narracao": "Novembro de 1918. Em Compiègne, a Alemanha assina o armistício.",
+      "narracao_tts": "Novembro de mil novecentos e dezoito. Em Compiênhe, a Alemanha assina o armistício.",
+      "descricao_visual": "Mapa em pergaminho do nordeste da França; pin em Compiègne; contador 1918; rota até o front na Meuse; zoom até Chaumont.",
+      "camera": "zoom_mapa",
+      "sfx": [
+        "vento"
+      ],
+      "transicao_saida": "dissolve",
+      "dissolve_entrada": 0,
+      "voz_em": 0.18,
+      "start": 0,
+      "end": 5.878
+    },
+    {
+      "id": "c0_s02",
+      "capitulo": 0,
+      "tipo": "documento",
+      "narracao": "Os canhões só devem calar às onze horas.",
+      "narracao_tts": "Os canhões só devem calar às onze horas.",
+      "descricao_visual": "Documento do armistício sobre mesa de madeira, linhas se escrevendo, lacre vinho; 11 HORAS destacado.",
+      "texto_tela": "11 HORAS",
+      "camera": "pushin",
+      "sfx": [
+        "pena"
+      ],
+      "transicao_saida": "fade_preto",
+      "dissolve_entrada": 0.7,
+      "voz_em": 5.528,
+      "start": 5.178,
+      "end": 9.369
+    },
+    {
+      "id": "c1_s00",
+      "capitulo": 1,
+      "tipo": "capitulo",
+      "titulo": "A ÚLTIMA MANHÃ",
+      "duracao_fixa": 2.8,
+      "narracao": "",
+      "narracao_tts": "",
+      "descricao_visual": "Cartela sobre o mapa escurecido.",
+      "camera": "estatica",
+      "sfx": [],
+      "transicao_saida": "dissolve",
+      "dissolve_entrada": 0.45,
+      "voz_em": null,
+      "start": 9.369,
+      "end": 12.169
+    },
+    {
+      "id": "c1_s01",
+      "capitulo": 1,
+      "tipo": "ilustracao",
+      "narracao": "Chaumont-devant-Damvillers. O soldado Henry Gunther avança com o 313º.",
+      "narracao_tts": "Chomon devã Danvilê. O soldado Rênri Gânter avança com o trezentos e treze.",
+      "descricao_visual": "Campo destruído ao amanhecer, árvores partidas, arame farpado, fumaça, soldados de papel avançando em fila.",
+      "lowerthird": {
+        "titulo": "CHAUMONT-DEVANT-DAMVILLERS",
+        "ano": "1918",
+        "sub": "Meuse, nordeste da França"
+      },
+      "camera": "pushin",
+      "sfx": [
+        "vento",
+        "artilharia"
+      ],
+      "transicao_saida": "corte",
+      "dissolve_entrada": 0.7,
+      "voz_em": 11.819,
+      "start": 11.469,
+      "end": 16.797
+    },
+    {
+      "id": "c1_s02",
+      "capitulo": 1,
+      "tipo": "citacao",
+      "narracao": "Já foi sargento. Perdeu a patente por aconselhar um amigo a evitar o alistamento.",
+      "narracao_tts": "Já foi sargento. Perdeu a patente por aconselhar um amigo a evitar o alistamento.",
+      "descricao_visual": "Cartão de papel rasgado entra de lado sobre a cena escurecida.",
+      "texto_tela": "DE SARGENTO A SOLDADO",
+      "camera": "pushin",
+      "sfx": [
+        "maquina"
+      ],
+      "transicao_saida": "corte",
+      "dissolve_entrada": 0,
+      "voz_em": 16.977,
+      "start": 16.797,
+      "end": 22.38
+    },
+    {
+      "id": "c1_s03",
+      "capitulo": 1,
+      "tipo": "numero",
+      "narracao": "Agora, faltam menos de dois minutos para o fim da guerra.",
+      "narracao_tts": "Agora, faltam menos de dois minutos para o fim da guerra.",
+      "descricao_visual": "MENOS DE / 2 MINUTOS em tipo gigante sobre fundo escuro.",
+      "texto_tela": "2 MINUTOS",
+      "camera": "pushin",
+      "sfx": [
+        "relogio"
+      ],
+      "transicao_saida": "corte",
+      "dissolve_entrada": 0,
+      "voz_em": 22.56,
+      "start": 22.38,
+      "end": 26.787
+    },
+    {
+      "id": "c1_s04",
+      "capitulo": 1,
+      "tipo": "ilustracao",
+      "narracao": "Gunther se levanta e corre até a barricada alemã. Por quê? Até hoje, ninguém sabe ao certo.",
+      "narracao_tts": "Gânter se levanta e corre até a barricada alemã. Por quê? Até hoje, ninguém sabe ao certo.",
+      "descricao_visual": "Gunther correndo sozinho em primeiro plano, barricada ao fundo; termina em fade para preto.",
+      "camera": "pushin",
+      "sfx": [
+        "passos"
+      ],
+      "transicao_saida": "fade_preto",
+      "dissolve_entrada": 0,
+      "voz_em": 26.967,
+      "start": 26.787,
+      "end": 33.528
+    }
+  ]
+}

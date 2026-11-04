@@ -1,0 +1,136 @@
+{
+  "shot_id": "climax_cena34_take_close",
+  "fonte": {
+    "video": "trecho_gunther_climax.mp4",
+    "t_trecho": 18.8,
+    "t_longo": 161.8,
+    "take": "cena 34, close, 18.35 a 20.00 s",
+    "narracao": "Witnesses said the Germans stood up and WAVED at him. Go back!"
+  },
+  "intencao": "O alemao, que sabe que a guerra acaba em 60 s, levanta e acena desesperado para o americano voltar.",
+  "camera": {
+    "pos": [
+      0.02,
+      -2.75,
+      1.5
+    ],
+    "target": [
+      -0.02,
+      0,
+      1.46
+    ],
+    "focus": [
+      0,
+      -0.2,
+      1.62
+    ],
+    "lens": 52,
+    "fstop": 4.0,
+    "roll": -1.4
+  },
+  "render": {
+    "raytracing": false,
+    "vol_tile": 8,
+    "vol_samples": 48,
+    "vol_end": 170,
+    "vol_shadows": true,
+    "exposure": 0.0
+  },
+  "mundo": {
+    "sky_horizon": "#d2cdbd",
+    "sky_top": "#7d8894",
+    "sky_strength": 0.85,
+    "fog_color": "#dcdad2",
+    "fog_density": 0.05,
+    "sun_dir": [
+      -0.38,
+      0.9,
+      0.2
+    ],
+    "sun_glow": "#c79a62"
+  },
+  "luzes": [
+    {
+      "name": "sol_baixo",
+      "type": "SUN",
+      "energy": 4.5,
+      "color": "#ffd7a3",
+      "pos": [
+        -14,
+        34,
+        9
+      ],
+      "target": [
+        0,
+        0,
+        1.2
+      ],
+      "angle": 8
+    },
+    {
+      "name": "chave",
+      "type": "AREA",
+      "energy": 240,
+      "color": "#fff1dc",
+      "size": 2.2,
+      "pos": [
+        -2.0,
+        -2.5,
+        3.4
+      ],
+      "target": [
+        0,
+        0,
+        1.5
+      ]
+    },
+    {
+      "name": "preenchimento",
+      "type": "AREA",
+      "energy": 14,
+      "color": "#9fb4cc",
+      "size": 4.0,
+      "pos": [
+        3.4,
+        -2.8,
+        1.6
+      ],
+      "target": [
+        0,
+        0,
+        1.4
+      ]
+    },
+    {
+      "name": "recorte",
+      "type": "AREA",
+      "energy": 60,
+      "color": "#ffd2a0",
+      "size": 1.6,
+      "pos": [
+        1.7,
+        2.2,
+        3.2
+      ],
+      "target": [
+        0,
+        0,
+        1.5
+      ]
+    }
+  ],
+  "personagem": {
+    "id": "alemao_g1",
+    "pos": [
+      0.0,
+      0.0
+    ],
+    "emocao": "desespero: boca aberta gritando, sobrancelhas subindo, olhos arregalados",
+    "gesto": "braco direito erguido, mao aberta acenando",
+    "olhar_para": [
+      0.15,
+      -9.0,
+      1.2
+    ]
+  }
+}

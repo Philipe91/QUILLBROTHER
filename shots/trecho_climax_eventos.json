@@ -1,0 +1,732 @@
+{
+ "fonte": {
+  "video": "D:/projetos/BROTHER QUILL/saida/trecho_gunther_climax.mp4",
+  "recorte_de": "D:/projetos/BROTHER QUILL/saida/gunther_final.mp4",
+  "inicio_no_longo_s": 143.0,
+  "duracao_s": 26.0,
+  "resolucao": "1280x720",
+  "fps": 24,
+  "quadros": 624,
+  "audio_mixado_fonte": "D:/projetos/BROTHER QUILL/anim/out/gunther.wav",
+  "roteiro": "D:/projetos/BROTHER QUILL/roteiros/gen_gunther.py",
+  "cenarios_e_atuacao": "D:/projetos/BROTHER QUILL/anim/src/bq_gunther.js"
+ },
+ "cenas": [
+  {
+   "cena_v44": 28,
+   "inicio": -3.22,
+   "fim": 0.84,
+   "cenario": "estrada",
+   "situacao": "barricada",
+   "texto": "Then they saw it. A roadblock. And behind it, two German machine guns.",
+   "fx": [
+    [
+     "roadblock",
+     "tambor"
+    ]
+   ],
+   "snap": "machine",
+   "gag": null,
+   "pov": null,
+   "beats": null,
+   "drama": false,
+   "palavras": [
+    {
+     "w": "Then",
+     "t": -3.22
+    },
+    {
+     "w": "they",
+     "t": -3.02
+    },
+    {
+     "w": "saw",
+     "t": -2.86
+    },
+    {
+     "w": "it.",
+     "t": -2.58
+    },
+    {
+     "w": "A",
+     "t": -2.22
+    },
+    {
+     "w": "roadblock.",
+     "t": -2.16
+    },
+    {
+     "w": "And",
+     "t": -1.36
+    },
+    {
+     "w": "behind",
+     "t": -1.3
+    },
+    {
+     "w": "it,",
+     "t": -1.02
+    },
+    {
+     "w": "two",
+     "t": -0.84
+    },
+    {
+     "w": "German",
+     "t": -0.6
+    },
+    {
+     "w": "machine",
+     "t": -0.26
+    },
+    {
+     "w": "guns.",
+     "t": 0.06
+    }
+   ],
+   "takes": [
+    {
+     "t": -0.3,
+     "tipo_v44": "xcu",
+     "whip": false
+    }
+   ]
+  },
+  {
+   "cena_v44": 29,
+   "inicio": 0.84,
+   "fim": 4.66,
+   "cenario": "estrada",
+   "situacao": "vala",
+   "texto": "The Americans dived into a ditch. It was a few minutes before eleven.",
+   "fx": [
+    [
+     "ditch",
+     "thud"
+    ]
+   ],
+   "snap": null,
+   "gag": null,
+   "pov": null,
+   "beats": null,
+   "drama": false,
+   "palavras": [
+    {
+     "w": "The",
+     "t": 0.84
+    },
+    {
+     "w": "Americans",
+     "t": 0.96
+    },
+    {
+     "w": "dived",
+     "t": 1.34
+    },
+    {
+     "w": "into",
+     "t": 1.75
+    },
+    {
+     "w": "a",
+     "t": 2.02
+    },
+    {
+     "w": "ditch.",
+     "t": 2.16
+    },
+    {
+     "w": "It",
+     "t": 2.75
+    },
+    {
+     "w": "was",
+     "t": 2.84
+    },
+    {
+     "w": "a",
+     "t": 2.94
+    },
+    {
+     "w": "few",
+     "t": 3.08
+    },
+    {
+     "w": "minutes",
+     "t": 3.24
+    },
+    {
+     "w": "before",
+     "t": 3.5
+    },
+    {
+     "w": "eleven.",
+     "t": 3.88
+    }
+   ],
+   "takes": [
+    {
+     "t": 0.84,
+     "tipo_v44": "alto",
+     "whip": false
+    },
+    {
+     "t": 2.12,
+     "tipo_v44": "crash",
+     "whip": false
+    },
+    {
+     "t": 3.93,
+     "tipo_v44": "close",
+     "whip": false
+    }
+   ]
+  },
+  {
+   "cena_v44": 30,
+   "inicio": 4.66,
+   "fim": 8.68,
+   "cenario": "estrada",
+   "situacao": "espera",
+   "texto": "And the Germans did not shoot. They knew. The war had a few minutes left.",
+   "fx": [
+    [
+     "knew",
+     "ding"
+    ]
+   ],
+   "snap": null,
+   "gag": null,
+   "pov": null,
+   "beats": null,
+   "drama": false,
+   "palavras": [
+    {
+     "w": "And",
+     "t": 4.66
+    },
+    {
+     "w": "the",
+     "t": 4.8
+    },
+    {
+     "w": "Germans",
+     "t": 4.9
+    },
+    {
+     "w": "did",
+     "t": 5.12
+    },
+    {
+     "w": "not",
+     "t": 5.42
+    },
+    {
+     "w": "shoot.",
+     "t": 5.62
+    },
+    {
+     "w": "They",
+     "t": 6.18
+    },
+    {
+     "w": "knew.",
+     "t": 6.3
+    },
+    {
+     "w": "The",
+     "t": 6.98
+    },
+    {
+     "w": "war",
+     "t": 7.1
+    },
+    {
+     "w": "had",
+     "t": 7.28
+    },
+    {
+     "w": "a",
+     "t": 7.48
+    },
+    {
+     "w": "few",
+     "t": 7.58
+    },
+    {
+     "w": "minutes",
+     "t": 7.72
+    },
+    {
+     "w": "left.",
+     "t": 7.94
+    }
+   ],
+   "takes": [
+    {
+     "t": 4.66,
+     "tipo_v44": "baixo",
+     "whip": false
+    },
+    {
+     "t": 6.26,
+     "tipo_v44": "close",
+     "whip": false
+    }
+   ]
+  },
+  {
+   "cena_v44": 31,
+   "inicio": 8.68,
+   "fim": 10.19,
+   "cenario": "estrada",
+   "situacao": "levanta",
+   "texto": "Then Henry stood up.",
+   "fx": [
+    [
+     "stood",
+     "record"
+    ]
+   ],
+   "snap": "stood",
+   "gag": null,
+   "pov": null,
+   "beats": null,
+   "drama": true,
+   "palavras": [
+    {
+     "w": "Then",
+     "t": 8.68
+    },
+    {
+     "w": "Henry",
+     "t": 8.84
+    },
+    {
+     "w": "stood",
+     "t": 9.18
+    },
+    {
+     "w": "up.",
+     "t": 9.54
+    }
+   ],
+   "takes": [
+    {
+     "t": 8.68,
+     "tipo_v44": "medio",
+     "whip": false
+    },
+    {
+     "t": 9.14,
+     "tipo_v44": "close",
+     "whip": true
+    }
+   ]
+  },
+  {
+   "cena_v44": 32,
+   "inicio": 10.19,
+   "fim": 13.37,
+   "cenario": "estrada",
+   "situacao": "corre",
+   "texto": "He grabbed his rifle and ran straight at the machine guns.",
+   "fx": [
+    [
+     "ran",
+     "whoosh"
+    ]
+   ],
+   "snap": null,
+   "gag": null,
+   "pov": {
+    "em": "straight",
+    "tipo": "pov_run",
+    "quem": "henry"
+   },
+   "beats": null,
+   "drama": false,
+   "palavras": [
+    {
+     "w": "He",
+     "t": 10.19
+    },
+    {
+     "w": "grabbed",
+     "t": 10.33
+    },
+    {
+     "w": "his",
+     "t": 10.55
+    },
+    {
+     "w": "rifle",
+     "t": 10.75
+    },
+    {
+     "w": "and",
+     "t": 11.05
+    },
+    {
+     "w": "ran",
+     "t": 11.29
+    },
+    {
+     "w": "straight",
+     "t": 11.49
+    },
+    {
+     "w": "at",
+     "t": 11.89
+    },
+    {
+     "w": "the",
+     "t": 12.13
+    },
+    {
+     "w": "machine",
+     "t": 12.29
+    },
+    {
+     "w": "guns.",
+     "t": 12.57
+    }
+   ],
+   "takes": [
+    {
+     "t": 10.19,
+     "tipo_v44": "medio",
+     "whip": false
+    },
+    {
+     "t": 11.45,
+     "tipo_v44": "pov",
+     "whip": false
+    }
+   ]
+  },
+  {
+   "cena_v44": 33,
+   "inicio": 13.37,
+   "fim": 16.85,
+   "cenario": "estrada",
+   "situacao": "powell_grita",
+   "texto": "Sergeant Powell shouted at him to stop. Henry kept running.",
+   "fx": [
+    [
+     "shouted",
+     "gasp"
+    ]
+   ],
+   "snap": null,
+   "gag": null,
+   "pov": null,
+   "beats": null,
+   "drama": false,
+   "palavras": [
+    {
+     "w": "Sergeant",
+     "t": 13.37
+    },
+    {
+     "w": "Powell",
+     "t": 13.75
+    },
+    {
+     "w": "shouted",
+     "t": 14.05
+    },
+    {
+     "w": "at",
+     "t": 14.41
+    },
+    {
+     "w": "him",
+     "t": 14.69
+    },
+    {
+     "w": "to",
+     "t": 14.81
+    },
+    {
+     "w": "stop.",
+     "t": 14.95
+    },
+    {
+     "w": "Henry",
+     "t": 15.75
+    },
+    {
+     "w": "kept",
+     "t": 15.91
+    },
+    {
+     "w": "running.",
+     "t": 16.19
+    }
+   ],
+   "takes": [
+    {
+     "t": 13.37,
+     "tipo_v44": "medio",
+     "whip": false
+    },
+    {
+     "t": 14.92,
+     "tipo_v44": "close",
+     "whip": false
+    }
+   ]
+  },
+  {
+   "cena_v44": 34,
+   "inicio": 16.85,
+   "fim": 21.12,
+   "cenario": "estrada",
+   "situacao": "acenam",
+   "texto": "Witnesses said the Germans stood up and waved at him. Go back! The war is over!",
+   "fx": [
+    [
+     "waved",
+     "record"
+    ]
+   ],
+   "snap": "waved",
+   "gag": {
+    "tipo": "freeze",
+    "em": "Go",
+    "txt": "11:00 IN 60 SECONDS"
+   },
+   "pov": null,
+   "beats": null,
+   "drama": false,
+   "palavras": [
+    {
+     "w": "Witnesses",
+     "t": 16.85
+    },
+    {
+     "w": "said",
+     "t": 17.19
+    },
+    {
+     "w": "the",
+     "t": 17.47
+    },
+    {
+     "w": "Germans",
+     "t": 17.63
+    },
+    {
+     "w": "stood",
+     "t": 17.83
+    },
+    {
+     "w": "up",
+     "t": 18.13
+    },
+    {
+     "w": "and",
+     "t": 18.27
+    },
+    {
+     "w": "waved",
+     "t": 18.39
+    },
+    {
+     "w": "at",
+     "t": 18.57
+    },
+    {
+     "w": "him.",
+     "t": 18.75
+    },
+    {
+     "w": "Go",
+     "t": 19.31
+    },
+    {
+     "w": "back!",
+     "t": 19.39
+    },
+    {
+     "w": "The",
+     "t": 20.03
+    },
+    {
+     "w": "war",
+     "t": 20.11
+    },
+    {
+     "w": "is",
+     "t": 20.31
+    },
+    {
+     "w": "over!",
+     "t": 20.49
+    }
+   ],
+   "takes": [
+    {
+     "t": 16.85,
+     "tipo_v44": "medio",
+     "whip": false
+    },
+    {
+     "t": 18.35,
+     "tipo_v44": "close",
+     "whip": false
+    },
+    {
+     "t": 20.0,
+     "tipo_v44": "aberto",
+     "whip": false
+    }
+   ]
+  },
+  {
+   "cena_v44": 35,
+   "inicio": 21.12,
+   "fim": 24.62,
+   "cenario": "estrada",
+   "situacao": "tiro",
+   "texto": "Henry fired a shot, maybe two. And the machine gun answered.",
+   "fx": [
+    [
+     "answered",
+     "metralhadora"
+    ]
+   ],
+   "snap": null,
+   "gag": null,
+   "pov": null,
+   "beats": [
+    [
+     "machine",
+     {
+      "m": "mg_fogo"
+     }
+    ]
+   ],
+   "drama": true,
+   "palavras": [
+    {
+     "w": "Henry",
+     "t": 21.12
+    },
+    {
+     "w": "fired",
+     "t": 21.38
+    },
+    {
+     "w": "a",
+     "t": 21.74
+    },
+    {
+     "w": "shot,",
+     "t": 21.88
+    },
+    {
+     "w": "maybe",
+     "t": 22.28
+    },
+    {
+     "w": "two.",
+     "t": 22.42
+    },
+    {
+     "w": "And",
+     "t": 23.2
+    },
+    {
+     "w": "the",
+     "t": 23.34
+    },
+    {
+     "w": "machine",
+     "t": 23.42
+    },
+    {
+     "w": "gun",
+     "t": 23.7
+    },
+    {
+     "w": "answered.",
+     "t": 23.9
+    }
+   ],
+   "takes": [
+    {
+     "t": 21.12,
+     "tipo_v44": "medio",
+     "whip": false
+    },
+    {
+     "t": 23.38,
+     "tipo_v44": "aberto",
+     "whip": false
+    }
+   ]
+  },
+  {
+   "cena_v44": 36,
+   "inicio": 24.62,
+   "fim": 28.1,
+   "cenario": "relogio",
+   "situacao": "",
+   "texto": "Henry Gunther was killed instantly. It was 10:59.",
+   "fx": [
+    [
+     "instantly",
+     "tambor"
+    ]
+   ],
+   "snap": null,
+   "gag": null,
+   "pov": null,
+   "beats": null,
+   "drama": true,
+   "palavras": [
+    {
+     "w": "Henry",
+     "t": 24.62
+    },
+    {
+     "w": "Gunther",
+     "t": 24.94
+    },
+    {
+     "w": "was",
+     "t": 25.3
+    },
+    {
+     "w": "killed",
+     "t": 25.48
+    },
+    {
+     "w": "instantly.",
+     "t": 25.72
+    },
+    {
+     "w": "It",
+     "t": 26.7
+    },
+    {
+     "w": "was",
+     "t": 26.78
+    },
+    {
+     "w": "10:59.",
+     "t": 26.9
+    }
+   ],
+   "takes": [
+    {
+     "t": 24.62,
+     "tipo_v44": "medio",
+     "whip": false
+    }
+   ]
+  }
+ ]
+}

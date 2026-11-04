@@ -1,0 +1,47 @@
+{
+ "marcha_a": {
+  "deslize_mm_local": 0,
+  "altura_sola": 0,
+  "erroIK": 0,
+  "erroMao": 0,
+  "erroContatoTotal": 0,
+  "apoio_pct": 60,
+  "apoio_duplo_pct": 20
+ },
+ "marcha_b": {
+  "deslize_mm_local": 0,
+  "altura_sola": 0,
+  "erroIK": 0,
+  "erroMao": 0,
+  "erroContatoTotal": 0,
+  "apoio_pct": 60,
+  "apoio_duplo_pct": 20
+ },
+ "marcha_g": {
+  "deslize_mm_local": 0,
+  "altura_sola": 0,
+  "erroIK": 0,
+  "erroMao": 0,
+  "erroContatoTotal": 0,
+  "apoio_pct": 60,
+  "apoio_duplo_pct": 20
+ },
+ "marcha_d": {
+  "deslize_mm_local": 0,
+  "altura_sola": 0,
+  "erroIK": 0,
+  "erroMao": 0,
+  "erroContatoTotal": 0,
+  "apoio_pct": 60,
+  "apoio_duplo_pct": 20
+ },
+ "corrida": {
+  "deslize_mm_local": 0,
+  "altura_sola": 0,
+  "erroIK": 0,
+  "erroMao": 0,
+  "erroContatoTotal": 0,
+  "apoio_pct": 36,
+  "apoio_duplo_pct": 0
+ }
+}

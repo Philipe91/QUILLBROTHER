@@ -1,0 +1,105 @@
+{
+ "s29": {
+  "dur_pub": 3.71,
+  "dur_nova": 3.54,
+  "corr_onda": 0.0759,
+  "tom_pub_hz": 149.1,
+  "tom_nova_hz": 145.5,
+  "timbre": 0.9971,
+  "brilho_pub": 1016,
+  "brilho_nova": 1027,
+  "vol_db": 0.48
+ },
+ "s30": {
+  "dur_pub": 3.9,
+  "dur_nova": 3.98,
+  "corr_onda": 0.0901,
+  "tom_pub_hz": 156.9,
+  "tom_nova_hz": 153.8,
+  "timbre": 0.9969,
+  "brilho_pub": 1029,
+  "brilho_nova": 1048,
+  "vol_db": -0.71
+ },
+ "s31": {
+  "dur_pub": 1.39,
+  "dur_nova": 1.18,
+  "corr_onda": 0.1063,
+  "tom_pub_hz": 146.3,
+  "tom_nova_hz": 138.7,
+  "timbre": 0.9842,
+  "brilho_pub": 1454,
+  "brilho_nova": 1419,
+  "vol_db": -0.8
+ },
+ "s32": {
+  "dur_pub": 3.06,
+  "dur_nova": 3.07,
+  "corr_onda": 0.0588,
+  "tom_pub_hz": 146.3,
+  "tom_nova_hz": 139.5,
+  "timbre": 0.9952,
+  "brilho_pub": 1269,
+  "brilho_nova": 1479,
+  "vol_db": 0.42
+ },
+ "s33": {
+  "dur_pub": 3.36,
+  "dur_nova": 3.36,
+  "corr_onda": 0.0497,
+  "tom_pub_hz": 134.1,
+  "tom_nova_hz": 134.8,
+  "timbre": 0.9961,
+  "brilho_pub": 1253,
+  "brilho_nova": 1165,
+  "vol_db": 0.48
+ },
+ "s34": {
+  "dur_pub": 4.15,
+  "dur_nova": 4.22,
+  "corr_onda": 0.0695,
+  "tom_pub_hz": 139.5,
+  "tom_nova_hz": 162.2,
+  "timbre": 0.9867,
+  "brilho_pub": 1144,
+  "brilho_nova": 1117,
+  "vol_db": 1.07
+ },
+ "s35": {
+  "dur_pub": 3.38,
+  "dur_nova": 3.33,
+  "corr_onda": 0.0737,
+  "tom_pub_hz": 143.3,
+  "tom_nova_hz": 163.3,
+  "timbre": 0.9931,
+  "brilho_pub": 1204,
+  "brilho_nova": 1233,
+  "vol_db": -0.1
+ },
+ "s36": {
+  "dur_pub": 3.36,
+  "dur_nova": 3.38,
+  "corr_onda": 0.0752,
+  "tom_pub_hz": 157.9,
+  "tom_nova_hz": 150.0,
+  "timbre": 0.9946,
+  "brilho_pub": 1500,
+  "brilho_nova": 1236,
+  "vol_db": 0.05
+ },
+ "s37": {
+  "dur_pub": 4.17,
+  "dur_nova": 4.24,
+  "corr_onda": 0.0586,
+  "tom_pub_hz": 138.3,
+  "tom_nova_hz": 143.3,
+  "timbre": 0.9781,
+  "brilho_pub": 1636,
+  "brilho_nova": 2036,
+  "vol_db": 0.35
+ },
+ "_referencia_timbre_entre_falas_publicadas_diferentes": {
+  "min": 0.9265,
+  "media": 0.9703
+ }
+}

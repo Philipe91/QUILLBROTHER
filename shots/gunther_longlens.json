@@ -1,0 +1,694 @@
+{
+  "sequencia": "gunther_longlens_5s",
+  "fonte": {
+    "clipe": "trecho_gunther_climax.mp4",
+    "t0": 16.85,
+    "t1": 21.85,
+    "t0_longo": 159.85,
+    "t1_longo": 164.85
+  },
+  "terreno": {
+    "amplitude": 1.7,
+    "comprimento_onda": 30,
+    "inclinacao": 0.014,
+    "largura_estrada": 5.2,
+    "crateras": [
+      [
+        -9,
+        -22,
+        3.2,
+        0.7
+      ],
+      [
+        11,
+        -48,
+        3.6,
+        0.8
+      ],
+      [
+        -12,
+        -78,
+        4,
+        0.9
+      ],
+      [
+        8,
+        -12,
+        2.6,
+        0.5
+      ],
+      [
+        13,
+        -105,
+        4,
+        0.8
+      ],
+      [
+        -8,
+        -135,
+        3.4,
+        0.7
+      ]
+    ]
+  },
+  "paleta": {
+    "campo": [
+      "#1f1e16",
+      "#35321f",
+      "#4e4932"
+    ],
+    "estrada": [
+      "#100e0b",
+      "#201b14",
+      "#332b20"
+    ],
+    "agua": "#39424a",
+    "capim": [
+      "#4a4630",
+      "#8a8058"
+    ]
+  },
+  "dressing": {
+    "postes_x": 6.2,
+    "postes_passo": 30,
+    "arvores": 46,
+    "capim_y": [
+      -120,
+      40
+    ],
+    "capim_n": 1500,
+    "barricada_y": 0.0,
+    "arame": [
+      [
+        5,
+        -6
+      ],
+      [
+        -5,
+        -9
+      ]
+    ],
+    "poca_passo": 2
+  },
+  "nevoa": {
+    "altura": 40,
+    "densidade": 0.0031,
+    "cor": "#dfe0da",
+    "anisotropia": 0.68
+  },
+  "mundo": {
+    "sky_horizon": "#dcd6c8",
+    "sky_top": "#6f7c88",
+    "sky_strength": 1.0,
+    "sun_dir": [
+      -0.62,
+      0.72,
+      0.16
+    ],
+    "sun_glow": "#caa67a",
+    "luz_ambiente": 0.16,
+    "ceu_camera": 1.15
+  },
+  "render": {
+    "raytracing": false,
+    "vol_tile": 4,
+    "vol_samples": 64,
+    "vol_end": 480,
+    "vol_shadows": true,
+    "exposure": 0.05,
+    "look": "AgX - High Contrast"
+  },
+  "luzes": [
+    {
+      "name": "sol_baixo",
+      "type": "SUN",
+      "energy": 8,
+      "color": "#ffd9ad",
+      "pos": [
+        -62,
+        72,
+        16
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "angle": 2
+    }
+  ],
+  "kits": {
+    "americano": {
+      "capacete": "brodie",
+      "capacete_mat": "aco_oliva",
+      "uniforme": [
+        "#3f3d28",
+        "#565338",
+        "#6c6848"
+      ],
+      "calca": [
+        "#37351f",
+        "#4a4730",
+        "#5c5940"
+      ],
+      "mochila": true,
+      "barra": 0.82
+    },
+    "alemao": {
+      "capacete": "stahl",
+      "capacete_mat": "aco",
+      "uniforme": [
+        "#3b3e39",
+        "#4d504a",
+        "#62655c"
+      ],
+      "calca": [
+        "#2f322d",
+        "#3f423b",
+        "#4f524a"
+      ],
+      "barra": 0.86,
+      "mao_aberta": {
+        "R": true,
+        "L": true
+      }
+    }
+  },
+  "poses": {
+    "corrida": {
+      "rot": [
+        [
+          "hips",
+          [
+            1,
+            0,
+            0
+          ],
+          0.16
+        ],
+        [
+          "spine",
+          [
+            1,
+            0,
+            0
+          ],
+          0.16
+        ],
+        [
+          "head",
+          [
+            1,
+            0,
+            0
+          ],
+          -0.2
+        ]
+      ],
+      "dir": {
+        "thigh_R": [
+          0,
+          -0.72,
+          -0.69
+        ],
+        "shin_R": [
+          0,
+          0.28,
+          -0.96
+        ],
+        "foot_R": [
+          0,
+          -0.95,
+          -0.3
+        ],
+        "thigh_L": [
+          0,
+          0.52,
+          -0.85
+        ],
+        "shin_L": [
+          0,
+          0.92,
+          -0.38
+        ],
+        "foot_L": [
+          0,
+          0.55,
+          -0.83
+        ],
+        "upper_R": [
+          -0.22,
+          0.28,
+          -0.93
+        ],
+        "fore_R": [
+          0.42,
+          -0.86,
+          -0.28
+        ],
+        "hand_R": [
+          0.5,
+          -0.8,
+          -0.3
+        ],
+        "upper_L": [
+          0.28,
+          -0.3,
+          -0.91
+        ],
+        "fore_L": [
+          -0.48,
+          -0.62,
+          0.62
+        ],
+        "hand_L": [
+          -0.5,
+          -0.6,
+          0.6
+        ]
+      }
+    },
+    "mira_final": {
+      "rot": [
+        [
+          "hips",
+          [
+            0,
+            0,
+            1
+          ],
+          -0.45
+        ],
+        [
+          "spine",
+          [
+            1,
+            0,
+            0
+          ],
+          0.1
+        ],
+        [
+          "chest",
+          [
+            0,
+            0,
+            1
+          ],
+          -0.25
+        ],
+        [
+          "head",
+          [
+            0,
+            0,
+            1
+          ],
+          0.5
+        ],
+        [
+          "head",
+          [
+            1,
+            0,
+            0
+          ],
+          0.16
+        ]
+      ],
+      "dir": {
+        "thigh_L": [
+          0.2,
+          -0.5,
+          -0.84
+        ],
+        "shin_L": [
+          0.02,
+          0.05,
+          -1
+        ],
+        "foot_L": [
+          0.3,
+          -0.92,
+          -0.2
+        ],
+        "thigh_R": [
+          -0.34,
+          0.5,
+          -0.8
+        ],
+        "shin_R": [
+          -0.1,
+          0.62,
+          -0.78
+        ],
+        "foot_R": [
+          -0.55,
+          -0.75,
+          -0.3
+        ],
+        "upper_R": [
+          -0.82,
+          -0.15,
+          -0.55
+        ],
+        "fore_R": [
+          0.72,
+          -0.62,
+          0.3
+        ],
+        "hand_R": [
+          0.3,
+          -0.95,
+          0.05
+        ],
+        "upper_L": [
+          0.1,
+          -0.86,
+          -0.5
+        ],
+        "fore_L": [
+          -0.12,
+          -0.98,
+          0.14
+        ],
+        "hand_L": [
+          -0.1,
+          -0.99,
+          0.05
+        ]
+      }
+    },
+    "aceno_alto": {
+      "rot": [
+        [
+          "spine",
+          [
+            0,
+            1,
+            0
+          ],
+          -0.08
+        ],
+        [
+          "chest",
+          [
+            1,
+            0,
+            0
+          ],
+          -0.05
+        ],
+        [
+          "head",
+          [
+            1,
+            0,
+            0
+          ],
+          -0.14
+        ]
+      ],
+      "dir": {
+        "upper_R": [
+          -0.5,
+          -0.14,
+          0.86
+        ],
+        "fore_R": [
+          -0.22,
+          -0.08,
+          0.97
+        ],
+        "hand_R": [
+          -0.18,
+          -0.05,
+          0.98
+        ],
+        "upper_L": [
+          0.62,
+          -0.14,
+          0.77
+        ],
+        "fore_L": [
+          0.3,
+          -0.05,
+          0.95
+        ],
+        "hand_L": [
+          0.1,
+          -0.05,
+          0.99
+        ]
+      }
+    },
+    "aceno_um": {
+      "rot": [
+        [
+          "spine",
+          [
+            0,
+            1,
+            0
+          ],
+          0.09
+        ],
+        [
+          "head",
+          [
+            1,
+            0,
+            0
+          ],
+          -0.12
+        ]
+      ],
+      "dir": {
+        "upper_L": [
+          0.74,
+          -0.16,
+          0.65
+        ],
+        "fore_L": [
+          0.46,
+          -0.08,
+          0.88
+        ],
+        "hand_L": [
+          0.62,
+          -0.05,
+          0.78
+        ],
+        "upper_R": [
+          -0.2,
+          -0.28,
+          -0.94
+        ],
+        "fore_R": [
+          -0.1,
+          -0.86,
+          -0.5
+        ],
+        "hand_R": [
+          0,
+          -0.9,
+          -0.42
+        ]
+      }
+    },
+    "mira_lateral": {
+      "rot": [
+        [
+          "hips",
+          [
+            1,
+            0,
+            0
+          ],
+          0.1
+        ],
+        [
+          "spine",
+          [
+            1,
+            0,
+            0
+          ],
+          0.12
+        ],
+        [
+          "head",
+          [
+            1,
+            0,
+            0
+          ],
+          0.1
+        ]
+      ],
+      "dir": {
+        "thigh_R": [
+          -0.05,
+          -0.62,
+          -0.78
+        ],
+        "shin_R": [
+          0,
+          0.04,
+          -1
+        ],
+        "foot_R": [
+          0,
+          -0.97,
+          -0.2
+        ],
+        "thigh_L": [
+          0.05,
+          0.66,
+          -0.75
+        ],
+        "shin_L": [
+          0,
+          0.78,
+          -0.62
+        ],
+        "foot_L": [
+          0,
+          0.1,
+          -0.99
+        ],
+        "upper_R": [
+          -0.25,
+          -0.3,
+          -0.92
+        ],
+        "fore_R": [
+          0.1,
+          -0.95,
+          0.3
+        ],
+        "hand_R": [
+          0.05,
+          -0.99,
+          0.08
+        ],
+        "upper_L": [
+          0.05,
+          -0.88,
+          -0.47
+        ],
+        "fore_L": [
+          -0.25,
+          -0.95,
+          0.1
+        ],
+        "hand_L": [
+          -0.1,
+          -0.99,
+          0.05
+        ]
+      }
+    }
+  },
+  "planos": {
+    "F1_S4_hold": {
+      "descricao": "S4: 19,31 a 20,51 s. 'Go back!' Henry de costas e os alemaes acenando, esmagados na mesma linha pela lente.",
+      "camera": {
+        "pos": [
+          -0.9,
+          -205,
+          4.5
+        ],
+        "target": [
+          0.35,
+          -20,
+          2.95
+        ],
+        "focus": [
+          0,
+          -30.5,
+          2.4
+        ],
+        "lens": 1150,
+        "fstop": 9,
+        "roll": 0.35
+      },
+      "figuras": [
+        {
+          "id": "henry",
+          "kit": "americano",
+          "pose": "corrida",
+          "x": -1.0,
+          "y": -30.5,
+          "yaw": 2.78,
+          "fuzil": [
+            "hand_R",
+            "hand_L"
+          ]
+        },
+        {
+          "id": "g1",
+          "kit": "alemao",
+          "pose": "aceno_um",
+          "x": 1.35,
+          "y": 0.75,
+          "yaw": 0.12
+        },
+        {
+          "id": "g2",
+          "kit": "alemao",
+          "pose": "aceno_alto",
+          "x": -0.05,
+          "y": 0.85,
+          "yaw": -0.08
+        }
+      ]
+    },
+    "F2_S6_pose": {
+      "descricao": "S6: 21,12 a 21,85 s. 'Henry fired...' Pose final de perfil na crista, recortado contra o ceu: decisao irreversivel.",
+      "camera": {
+        "pos": [
+          44,
+          -41,
+          1.15
+        ],
+        "target": [
+          -0.35,
+          -30.5,
+          2.72
+        ],
+        "focus": [
+          -0.35,
+          -30.5,
+          2.6
+        ],
+        "lens": 240,
+        "fstop": 4,
+        "roll": -0.6
+      },
+      "figuras": [
+        {
+          "id": "henry",
+          "kit": "americano",
+          "pose": "mira_lateral",
+          "x": -0.35,
+          "y": -30.5,
+          "yaw": 3.14159,
+          "fuzil": [
+            "hand_R",
+            "hand_L"
+          ],
+          "fuzil_dir": [
+            0,
+            -1,
+            0.05
+          ]
+        }
+      ],
+      "esconder": [
+        "postes",
+        "fios"
+      ]
+    }
+  }
+}

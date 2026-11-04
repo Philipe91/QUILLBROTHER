@@ -1,0 +1,11 @@
+node_modules/
+.hyperframes/
+rev[0-9]*/
+output/
+versoes/
+blend/
+*.blend
+*.blend1
+__pycache__/
+*.pyc
+renders/
