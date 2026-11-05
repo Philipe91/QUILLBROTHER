@@ -123,13 +123,13 @@ def mixa(plano, saida):
         co = a.get('corte', 12000); x, x2 = lp(x, co), lp(x2, co)
         coloca(B['ambiente'], por_ref(x, a['db']) * g, por_ref(x2, a['db']) * g, a['ini'] - a.get('fade', .4))
     # música com automação
-    if mus:
-        x = carrega(AQUI / BIB[mus['som']]['arquivo']); x = np.resize(np.roll(x, -int(mus.get('off', 0) * SR)), N); x = hp(lp(x, mus.get('corte', 5200)), 70)
-        y = np.roll(x, 1103); e = envelope(mus['automacao'], N); B['musica'][:, 0] = por_ref(x, 0) * e; B['musica'][:, 1] = por_ref(y, 0) * e
+    for m in (mus if isinstance(mus, list) else [mus] if mus else []):
+        x = carrega(AQUI / BIB[m['som']]['arquivo']); x = np.resize(np.roll(x, -int(m.get('off', 0) * SR)), N); x = hp(lp(x, m.get('corte', 5200)), 70)
+        y = np.roll(x, 1103); e = envelope(m['automacao'], N); B['musica'][:, 0] += por_ref(x, 0) * e; B['musica'][:, 1] += por_ref(y, 0) * e
     # eventos
     log = []
     for e in ev:
-        x = toma(e['som']); nome = e['som']; bus = e['bus']; d = e.get('dist', 0); bib = BIB[nome]
+        x = toma(e['som']); x = fade(x[:int(e['dur'] * SR)], .002, .25) if e.get('dur') else x; nome = e['som']; bus = e['bus']; d = e.get('dist', 0); bib = BIB[nome]
         alvo = bib.get('nivel', -14) + e.get('db', 0)
         L, R = espaco(por_ref(x, alvo), d, e.get('pan', 0), e.get('amb', p.get('ambiente', 'campo')))
         coloca(B[bus], L, R, e['t']); log.append({**e, 'pico_db': round(20 * np.log10(max(np.abs(x).max(), 1e-6)), 1)})

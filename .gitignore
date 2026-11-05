@@ -14,3 +14,10 @@ estilos/v5_personagens/assets/audio/stems/
 estilos/v5_personagens/qa/*/shot/
 estilos/v5_personagens/qa/*/assets/
 estilos/*/node_modules
+
+# vídeos: fontes sim; renders e áudio final não
+videos/*/build/
+videos/*/render/
+videos/*/audio/
+videos/*/qa/
+videos/*/backend.log

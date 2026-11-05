@@ -1,0 +1,1434 @@
+{
+"titulo_longo": "Why Japan Erased the Only Survivor of Pearl Harbor's Secret Subs",
+"titulo_short": "What Happened to the Only Survivor of Pearl Harbor's Secret Subs?",
+"longo": [
+[
+"c01",
+"s001",
+"Ten men went to Pearl Harbor in secret submarines.",
+"dez",
+{
+"f": 0
+}
+],
+[
+"c01",
+"s002",
+"Nine of them died. Japan honored them as heroes, and they became known as the Nine War Gods.",
+"dez",
+{
+"f": 1,
+"txt": "THE NINE WAR GODS"
+}
+],
+[
+"c01",
+"s003",
+"The tenth man survived. And Japan struck his name from its records.",
+"dez",
+{
+"f": 2
+}
+],
+[
+"c01",
+"s004",
+"This is Kazuo Sakamaki. Brother Quill here. Let's open the book.",
+"retrato",
+{
+"e": "neutra",
+"lt": [
+"Kazuo Sakamaki",
+"Ensign, Imperial Japanese Navy"
+],
+"fim": 1
+}
+],
+[
+"c02",
+"s005",
+"When people picture December seventh, 1941, they picture the planes.",
+"avioes",
+{
+"ano": "1941"
+}
+],
+[
+"c02",
+"s006",
+"But the attack had a second half that almost no one talks about.",
+"subMar",
+{
+"modo": "sob"
+}
+],
+[
+"c02",
+"s007",
+"Hours before the first bomb, five small submarines were already waiting off Oahu.",
+"mapa",
+{
+"z": "oahu",
+"cinco": 1,
+"txt": "FIVE MIDGET SUBMARINES"
+}
+],
+[
+"c02",
+"s008",
+"Each one had been carried across the Pacific on the deck of a larger submarine.",
+"mae",
+{
+"modo": "carrega"
+}
+],
+[
+"c02",
+"a01",
+"Sakamaki's ride was the I-twenty-four.",
+"mae",
+{
+"modo": "carrega"
+}
+],
+[
+"c02",
+"s009",
+"Their job was to slip into the harbor, wait for the air attack, and fire on the American ships.",
+"mapa",
+{
+"z": "porto",
+"rota": "plano"
+}
+],
+[
+"c02",
+"a02",
+"They would go in submerged, circle Ford Island, and leave the way they came.",
+"mapa",
+{
+"z": "porto",
+"rota": "ford"
+}
+],
+[
+"c02",
+"s010",
+"And anything that tried to run, they were to sink as well.",
+"subMar",
+{
+"modo": "navios"
+}
+],
+[
+"c03",
+"s011",
+"In 1941, a young ensign named Kazuo Sakamaki was brought into that secret program, at the naval base of Kure.",
+"doca",
+{
+"lt": [
+"Kure, Japan",
+"1941"
+]
+}
+],
+[
+"c03",
+"a03",
+"HA-19, the boat he would command, had been built right there at Kure.",
+"planta",
+{
+"cota": "HA-19"
+}
+],
+[
+"c03",
+"s012",
+"The submarine was seventy-eight feet long, with room for two men and two torpedoes.",
+"planta",
+{
+"cota": "78 FEET",
+"tor": 1
+}
+],
+[
+"c03",
+"s013",
+"It ran on batteries, and it was barely six feet wide.",
+"planta",
+{
+"cota": "6 FEET WIDE",
+"bat": 1,
+"zoom": 1
+}
+],
+[
+"c03",
+"a04",
+"Its top speed was nineteen knots. It also carried a charge of about three hundred pounds, so the crew could destroy it rather than let anyone capture it.",
+"planta",
+{
+"bat": 1
+}
+],
+[
+"c03",
+"a05",
+"And the crews carried swords and pistols.",
+"petalas",
+{
+"armas": 1
+}
+],
+[
+"c03",
+"s014",
+"According to his memoir, the crews were picked for physical strength and determination.",
+"fila",
+{}
+],
+[
+"c03",
+"a06",
+"Twenty-four men were selected. Ten would go on the mission.",
+"dez",
+{
+"f": 0
+}
+],
+[
+"c03",
+"s015",
+"They were unmarried men from large families. The logic was cold. The family would survive the loss.",
+"fila",
+{
+"mod": "familia"
+}
+],
+[
+"c03",
+"s016",
+"And he wrote that none of them had volunteered. They were told to feel honored.",
+"retrato",
+{
+"e": "tensao",
+"txt": "NONE WERE VOLUNTEERS"
+}
+],
+[
+"c03",
+"s017",
+"They trained at Mitsukue Bay, in southern Japan, because its shape resembled Pearl Harbor.",
+"baia",
+{
+"lt": [
+"Mitsukue Bay",
+"Secret training base"
+]
+}
+],
+[
+"c03",
+"s018",
+"A rendezvous was planned for after the attack, off the island of Lanai. On paper, at least.",
+"mapa",
+{
+"z": "ilhas",
+"rota": "lanai"
+}
+],
+[
+"c03",
+"s019",
+"But according to his memoir, the batteries would not last long enough to get them back.",
+"bateria",
+{}
+],
+[
+"c03",
+"s020",
+"Sakamaki did the math. He knew what kind of trip this was.",
+"retrato",
+{
+"e": "tristeza",
+"olha": "baixo"
+}
+],
+[
+"c04",
+"s021",
+"On November eighteenth, he wrote to his parents.",
+"carta",
+{
+"f": 0
+}
+],
+[
+"c04",
+"s022",
+"I owe you, my parents, a debt I shall never be able to repay.",
+"carta",
+{
+"f": 1,
+"cit": "I owe you, my parents, a debt I shall never be able to repay."
+}
+],
+[
+"c04",
+"s023",
+"The day before the attack, he made a will, and left a lock of hair and his nail clippings for the family altar.",
+"altar",
+{}
+],
+[
+"c04",
+"s024",
+"According to his memoir, he dressed for the mission with care: a loincloth, a leather jacket, a headband, and a touch of cherry blossom perfume.",
+"petalas",
+{}
+],
+[
+"c04",
+"s025",
+"He was twenty-three years old.",
+"retrato",
+{
+"e": "neutra",
+"olha": "frente",
+"petalas": 1,
+"txt": "AGE 23"
+}
+],
+[
+"c04",
+"a07",
+"For weeks, the I-twenty-four crossed the Pacific, with the little submarine strapped to its deck.",
+"mae",
+{
+"modo": "carrega"
+}
+],
+[
+"c05",
+"s026",
+"Then, hours before launch, the final check.",
+"interior",
+{
+"f": 0
+}
+],
+[
+"c05",
+"s027",
+"His gyrocompass, the one thing that told him where he was going under water, was broken.",
+"bussola",
+{
+"v": 1
+}
+],
+[
+"c05",
+"s028",
+"He and his crewman, Kiyoshi Inagaki, tried to fix it. They could not.",
+"interior",
+{
+"f": 1,
+"lt": [
+"Kiyoshi Inagaki",
+"Crewman, HA-19"
+]
+}
+],
+[
+"c05",
+"s029",
+"By his own account, he was asked if he wanted to back out.",
+"retrato",
+{
+"e": "atenta",
+"olha": "frente"
+}
+],
+[
+"c05",
+"s030",
+"He said no.",
+"retrato",
+{
+"e": "determinacao",
+"olha": "frente",
+"seco": 1
+}
+],
+[
+"c05",
+"s031",
+"So he went to attack the most important American naval base in the Pacific, nearly blind.",
+"bussola",
+{
+"v": 2
+}
+],
+[
+"c06",
+"s032",
+"In the early hours of December seventh, the little submarine was released into the dark, about ten miles from the harbor.",
+"mae",
+{
+"modo": "solta"
+}
+],
+[
+"c06",
+"s033",
+"Things went downhill, which for a submarine is normally the idea.",
+"subMar",
+{
+"modo": "desce"
+}
+],
+[
+"c06",
+"s034",
+"With no working compass, he could not hold a course.",
+"mapa",
+{
+"z": "porto",
+"rota": "zigue"
+}
+],
+[
+"c06",
+"s035",
+"They missed the harbor entrance.",
+"mapa",
+{
+"z": "porto",
+"rota": "erra",
+"txt": "MISSED"
+}
+],
+[
+"c06",
+"a08",
+"Even when they found it, around seven in the morning, they could not get in.",
+"mapa",
+{
+"z": "porto",
+"rota": "erra"
+}
+],
+[
+"c06",
+"s036",
+"They hit a reef, again and again.",
+"recife",
+{}
+],
+[
+"c06",
+"s037",
+"By then, the air attack had begun. The thing he had been sent to join was happening without him.",
+"horizonte",
+{}
+],
+[
+"c06",
+"s038",
+"The destroyer U.S.S. Helm opened fire.",
+"helm",
+{}
+],
+[
+"c06",
+"s039",
+"Sakamaki lost consciousness.",
+"interior",
+{
+"f": 2
+}
+],
+[
+"c06",
+"s040",
+"Depth charges shook the hull. Gas from the batteries began to fill it.",
+"interior",
+{
+"f": 3
+}
+],
+[
+"c06",
+"s041",
+"According to his memoir, the heat inside reached a hundred and thirty-five degrees.",
+"interior",
+{
+"f": 4,
+"txt": "135 °F"
+}
+],
+[
+"c06",
+"s042",
+"His torpedoes could no longer fire.",
+"planta",
+{
+"tor": 2
+}
+],
+[
+"c06",
+"s043",
+"He had crossed the Pacific, and he had not fired a single shot.",
+"subMar",
+{
+"modo": "so"
+}
+],
+[
+"c06",
+"a09",
+"He wrote that he wept at the thought of failure.",
+"retrato",
+{
+"e": "cansaco",
+"olha": "baixo",
+"escuro": 1
+}
+],
+[
+"c06",
+"s044",
+"According to his memoir, he made a new plan: ram an American ship, and die fighting.",
+"retrato",
+{
+"e": "determinacao",
+"olha": "frente",
+"escuro": 1
+}
+],
+[
+"c06",
+"s045",
+"The submarine would not even do that. The steering and the power gave out.",
+"painel",
+{}
+],
+[
+"c06",
+"s046",
+"It drifted away from the battle, along the coast of Oahu.",
+"mapa",
+{
+"z": "oahu",
+"rota": "deriva"
+}
+],
+[
+"c07",
+"s047",
+"Overnight, it ran aground off Bellows Field, on the other side of the island.",
+"praia",
+{
+"f": 0,
+"lt": [
+"Bellows Field, Oahu",
+"Night of December 7"
+]
+}
+],
+[
+"c07",
+"a10",
+"American troops guarding the beach could see it on the reef.",
+"praia",
+{
+"f": 2
+}
+],
+[
+"c07",
+"s048",
+"He lit the fuse to destroy the submarine, so that it would not fall into American hands.",
+"pavio",
+{}
+],
+[
+"c07",
+"s049",
+"Then the two men went into the water.",
+"praia",
+{
+"f": 1
+}
+],
+[
+"c07",
+"s050",
+"The charge never went off.",
+"praia",
+{
+"f": 2
+}
+],
+[
+"c07",
+"s051",
+"Kiyoshi Inagaki drowned.",
+"agua",
+{}
+],
+[
+"c07",
+"s052",
+"On December eighth, two men of the Hawaii National Guard, Lieutenant Paul Plybon and Corporal David Akui, found Sakamaki in the surf.",
+"guardas",
+{
+"lt": [
+"Lt. Paul Plybon, Cpl. David Akui",
+"Hawaii National Guard"
+]
+}
+],
+[
+"c07",
+"s053",
+"He had commanded a secret weapon. Now he was Prisoner Number One, America's first Japanese prisoner of the war.",
+"prisioneiro",
+{}
+],
+[
+"c07",
+"a11",
+"He was taken to Fort Shafter, and then to a detention camp on Sand Island.",
+"campo",
+{
+"f": 0
+}
+],
+[
+"c08",
+"s054",
+"He asked to be allowed to die. The Americans said no.",
+"retrato",
+{
+"e": "tristeza",
+"olha": "baixo",
+"preso": 1,
+"escuro": 1
+}
+],
+[
+"c08",
+"a12",
+"One account says he asked again and again. By the same account, his treatment was not harsh.",
+"retrato",
+{
+"e": "tensao",
+"olha": "baixo",
+"preso": 1
+}
+],
+[
+"c08",
+"s055",
+"He told American intelligence officers, my honor as a soldier has fallen to the ground.",
+"citacao",
+{
+"cit": "My honor as a soldier has fallen to the ground.",
+"sub": "Kazuo Sakamaki, to U.S. intelligence officers"
+}
+],
+[
+"c08",
+"s056",
+"Under the code he served, a captured man became a non-person.",
+"retrato",
+{
+"e": "tristeza",
+"olha": "baixo",
+"preso": 1,
+"desbota": 1
+}
+],
+[
+"c08",
+"a13",
+"For a man raised on that code, there was no way back.",
+"retrato",
+{
+"e": "tristeza",
+"olha": "baixo",
+"preso": 1,
+"escuro": 1
+}
+],
+[
+"c08",
+"s057",
+"And the Americans had more than the man. They hauled his submarine ashore.",
+"praia",
+{
+"f": 3
+}
+],
+[
+"c08",
+"s058",
+"Inside it, they found a chart of his route, drawn right around Ford Island.",
+"mapa",
+{
+"z": "porto",
+"rota": "ford",
+"papel": 1
+}
+],
+[
+"c09",
+"s059",
+"None of the five submarines came back.",
+"subMar",
+{
+"modo": "vazio"
+}
+],
+[
+"c09",
+"s060",
+"One was sunk outside the harbor. One got in, fired, missed, and was rammed. Two simply disappeared.",
+"mapa",
+{
+"z": "porto",
+"destinos": 1
+}
+],
+[
+"c09",
+"a14",
+"Years later, in 1960, one of those submarines was raised and returned to Japan, where it is on display.",
+"subMar",
+{
+"modo": "so"
+}
+],
+[
+"c09",
+"a15",
+"Not his. His was still in America.",
+"museu",
+{
+"f": 1
+}
+],
+[
+"c09",
+"s061",
+"Back in Japan, the mission became a legend.",
+"dez",
+{
+"f": 3
+}
+],
+[
+"c09",
+"s062",
+"By one account, propaganda even credited a midget submarine with sinking the U.S.S. Arizona. It was destroyed from the air.",
+"jornal",
+{}
+],
+[
+"c09",
+"a16",
+"Paintings and postcards romanticized the crews.",
+"pintura",
+{
+"f": 0
+}
+],
+[
+"c09",
+"s063",
+"In March of 1942, the nine dead were promoted two ranks.",
+"lista",
+{
+"f": 0
+}
+],
+[
+"c09",
+"s064",
+"In the official painting, there are nine faces.",
+"pintura",
+{
+"f": 0
+}
+],
+[
+"c09",
+"s065",
+"There was one problem. There had been ten men.",
+"pintura",
+{
+"f": 1
+}
+],
+[
+"c09",
+"s066",
+"For an officer of Imperial Japan, being captured was considered worse than death.",
+"retrato",
+{
+"e": "tensao",
+"olha": "baixo",
+"preso": 1,
+"escuro": 1
+}
+],
+[
+"c09",
+"s067",
+"So they solved it with paperwork. Japan struck his name from its records.",
+"lista",
+{
+"f": 1
+}
+],
+[
+"c09",
+"a17",
+"He was not dead. He was simply no longer on the list.",
+"lista",
+{
+"f": 1,
+"ja": 1
+}
+],
+[
+"c09",
+"s068",
+"On paper, Kazuo Sakamaki had stopped existing.",
+"lista",
+{
+"f": 2
+}
+],
+[
+"c10",
+"s069",
+"Meanwhile, the Americans had found a use for his submarine.",
+"praia",
+{
+"f": 4
+}
+],
+[
+"c10",
+"s070",
+"They shipped it to the mainland, studied it, and put it on a truck.",
+"caminhao",
+{
+"f": 0
+}
+],
+[
+"c10",
+"s071",
+"It went through forty-one states.",
+"eua",
+{
+"tour": 1
+}
+],
+[
+"c10",
+"s072",
+"Want to see the enemy's secret weapon? Buy a war bond.",
+"rua",
+{
+"cartaz": 1
+}
+],
+[
+"c10",
+"a18",
+"The enemy's secret weapon, it turned out, could be visited for the price of a bond.",
+"caminhao",
+{
+"f": 1
+}
+],
+[
+"c10",
+"s073",
+"On September twenty-fourth, 1942, at Mare Island, California, it was seen by President Roosevelt.",
+"caminhao",
+{
+"f": 1,
+"lt": [
+"Mare Island, California",
+"September 24, 1942"
+]
+}
+],
+[
+"c10",
+"a19",
+"By the end of the war, it was on show in Key West, Florida.",
+"caminhao",
+{
+"f": 0,
+"lt": [
+"Key West, Florida",
+"End of the war"
+]
+}
+],
+[
+"c10",
+"s074",
+"In 1943, it rolled through a small town in Texas called Fredericksburg, the hometown of Admiral Nimitz. Remember that town.",
+"rua",
+{
+"lt": [
+"Fredericksburg, Texas",
+"1943"
+],
+"txt": "REMEMBER THIS TOWN"
+}
+],
+[
+"c10",
+"s075",
+"So while Sakamaki sat in a prison camp, his submarine was on tour.",
+"split",
+{}
+],
+[
+"c10",
+"s076",
+"It had a better war than he did.",
+"split",
+{
+"f": 1
+}
+],
+[
+"c10",
+"s077",
+"There is no sign he knew.",
+"campo",
+{
+"f": 0,
+"so": 1
+}
+],
+[
+"c11",
+"s078",
+"And then, in camps across Wisconsin, Tennessee, Louisiana and Texas, something changed.",
+"eua",
+{
+"campos": 1
+}
+],
+[
+"c11",
+"s079",
+"According to his memoir, he was generally satisfied with how he was treated.",
+"campo",
+{
+"f": 1
+}
+],
+[
+"c11",
+"s080",
+"Around the spring of 1942, he began to feel human again, and to see the Americans around him as human too.",
+"retrato",
+{
+"e": "neutra",
+"olha": "lado",
+"preso": 1,
+"claro": 1
+}
+],
+[
+"c11",
+"s081",
+"His memoir describes something called Internment University.",
+"quadro",
+{
+"f": 0
+}
+],
+[
+"c11",
+"s082",
+"There were lectures on English, geography, commerce, agriculture, music, Japanese poetry and Buddhist scriptures.",
+"quadro",
+{
+"f": 1
+}
+],
+[
+"c11",
+"a20",
+"It was a strange sort of college. The students were enemy prisoners, and they had nothing but time.",
+"campo",
+{
+"f": 2
+}
+],
+[
+"c11",
+"s083",
+"As new Japanese prisoners arrived, he became a leader among them. He urged them to learn English.",
+"campo",
+{
+"f": 2
+}
+],
+[
+"c11",
+"s084",
+"Some arrived ashamed, and wanting to die. They met a man who had once asked for the same thing.",
+"campo",
+{
+"f": 3
+}
+],
+[
+"c11",
+"s085",
+"He tried to talk them out of it.",
+"campo",
+{
+"f": 4
+}
+],
+[
+"c11",
+"s086",
+"The man Japan had thrown away was now trying to keep its soldiers alive.",
+"retrato",
+{
+"e": "determinacao",
+"olha": "lado",
+"preso": 1,
+"claro": 1
+}
+],
+[
+"c12",
+"s087",
+"In 1946, he went home.",
+"navio",
+{
+"lt": [
+"Japan",
+"1946"
+]
+}
+],
+[
+"c12",
+"a21",
+"He had left as an officer of an empire. He came back to a defeated country, as the man who had not died.",
+"navio",
+{}
+],
+[
+"c12",
+"s088",
+"According to his memoir, some of the letters that came were full of hate. One said, I cannot understand how you could return alive.",
+"cartas",
+{
+"f": 0,
+"cit": "I cannot understand how you could return alive."
+}
+],
+[
+"c12",
+"s089",
+"Others came from single women who had heard he was famous. Japan had erased him, but apparently not everywhere.",
+"cartas",
+{
+"f": 1
+}
+],
+[
+"c12",
+"s090",
+"Then, he wrote, he saw a woman working in a neighbor's field, and fell in love on the spot.",
+"lavoura",
+{}
+],
+[
+"c12",
+"s091",
+"Being careful, he then checked her paperwork. Her health certificate. Her school records. Her family background.",
+"dossie",
+{}
+],
+[
+"c12",
+"s092",
+"Her name was Sadako. Her father and her brother had died in the atomic bombing of Hiroshima.",
+"lavoura",
+{
+"f": 1,
+"lt": [
+"Sadako",
+""
+]
+}
+],
+[
+"c12",
+"a22",
+"She and her mother had moved back to their family home, right next to his.",
+"lavoura",
+{
+"f": 1
+}
+],
+[
+"c12",
+"s093",
+"They married, he wrote, and a daughter followed.",
+"lavoura",
+{
+"f": 2
+}
+],
+[
+"c12",
+"s094",
+"He described them as thin, like so many hard-working Japanese. But, he wrote, above all, we are very happy.",
+"citacao",
+{
+"cit": "Above all, we are very happy.",
+"sub": "Kazuo Sakamaki, I Attacked Pearl Harbor"
+}
+],
+[
+"c12",
+"s095",
+"In 1949, his memoir came out in America, as I Attacked Pearl Harbor.",
+"livro",
+{}
+],
+[
+"c12",
+"a23",
+"It had first appeared in Japan, under a plainer title: Four Years as Prisoner of War Number One.",
+"livro",
+{
+"tit": 1
+}
+],
+[
+"c12",
+"a24",
+"In it, he listed the stages of what he went through: attack, capture, despair, self-contempt, meditation, and finally a wish to help rebuild Japan.",
+"citacao",
+{
+"cit": "Attack. Capture. Despair. Self-contempt. Meditation. A wish to help rebuild Japan.",
+"sub": "The stages he listed in his memoir",
+"peq": 1
+}
+],
+[
+"c12",
+"s096",
+"After that, he did not speak or write publicly about the war.",
+"livro",
+{
+"f": 1
+}
+],
+[
+"c13",
+"s097",
+"He joined Toyota, and worked in exports.",
+"fabrica",
+{}
+],
+[
+"c13",
+"a25",
+"He ended up as production chief of its export division, in Nagoya.",
+"fabrica",
+{
+"f": 1
+}
+],
+[
+"c13",
+"s098",
+"In 1969, he became president of its subsidiary in Brazil.",
+"brasil",
+{}
+],
+[
+"c13",
+"s099",
+"The man struck from the records was now running a car company on another continent.",
+"fabrica",
+{
+"f": 1
+}
+],
+[
+"c13",
+"a26",
+"In 1983, he went back to Japan.",
+"navio",
+{}
+],
+[
+"c13",
+"a27",
+"Back in 1966, the town of Seto, on Mitsukue Bay, had put up a monument to the mission. He was working at Toyota at the time.",
+"monumento",
+{
+"f": 0
+}
+],
+[
+"c13",
+"s100",
+"He retired in 1987. For decades, not a word.",
+"retrato",
+{
+"e": "neutra",
+"velho": 1,
+"olha": "baixo"
+}
+],
+[
+"c14",
+"s101",
+"Then, in 1991, an old man came to Fredericksburg, Texas, for a conference on the Pacific War.",
+"museu",
+{
+"f": 0,
+"lt": [
+"Fredericksburg, Texas",
+"1991"
+]
+}
+],
+[
+"c14",
+"s102",
+"That same town. The hometown of Admiral Nimitz.",
+"rua",
+{
+"hoje": 1
+}
+],
+[
+"c14",
+"s103",
+"The submarine had come to the museum there. It is still there today.",
+"museu",
+{
+"f": 1
+}
+],
+[
+"c14",
+"a28",
+"It sits in a display built to look like the deck of the I-twenty-four, on the morning of the attack.",
+"museu",
+{
+"f": 1
+}
+],
+[
+"c14",
+"s104",
+"Fifty years after he had left it on a reef, he stood in front of it again.",
+"museu",
+{
+"f": 2
+}
+],
+[
+"c14",
+"a29",
+"He was the only man alive who had been aboard that day.",
+"museu",
+{
+"f": 2
+}
+],
+[
+"c14",
+"s105",
+"He was reportedly moved to tears.",
+"retrato",
+{
+"e": "tristeza",
+"velho": 1,
+"olha": "lado",
+"lento": 1,
+"lagrima": 1
+}
+],
+[
+"c15",
+"s106",
+"Kazuo Sakamaki died in 1999, at the age of 81, after a marriage, a career, and a long life he had once asked to give up.",
+"retrato",
+{
+"e": "neutra",
+"velho": 1,
+"fim": 1,
+"txt": "1918 – 1999"
+}
+],
+[
+"c15",
+"s107",
+"He came to Pearl Harbor to attack America. He spent the next four years learning to see Americans as people, and trying to keep other men alive.",
+"campo",
+{
+"f": 5
+}
+],
+[
+"c15",
+"s108",
+"In Japan, on Mitsukue Bay, there is a monument to the men of that mission.",
+"monumento",
+{
+"f": 0
+}
+],
+[
+"c15",
+"a30",
+"The inscription calls the bay Japan's Pearl Harbor of its time, and now, a Pearl Harbor of peace. The plaque has photographs of nine men.",
+"monumento",
+{
+"f": 1,
+"sem": 1
+}
+],
+[
+"c15",
+"s109",
+"Behind its plaque stand nine posts, one for each spirit.",
+"monumento",
+{
+"f": 1
+}
+],
+[
+"c15",
+"s110",
+"It says nine.",
+"monumento",
+{
+"f": 2
+}
+]
+],
+"short": [
+[
+"z",
+"z01",
+"Ten men went to Pearl Harbor in secret submarines. Nine died, and Japan honored them as heroes. So what happened to number ten?",
+"dez",
+{
+"f": 2
+}
+],
+[
+"z",
+"z02",
+"Kazuo Sakamaki's compass was broken before he launched. He went anyway.",
+"bussola",
+{
+"v": 1
+}
+],
+[
+"z",
+"z03",
+"He hit a reef, again and again. A destroyer opened fire. Gas filled the hull, and he lost consciousness. His torpedoes never fired.",
+"recife",
+{}
+],
+[
+"z",
+"z04",
+"He ran aground in Hawaii, and lit the fuse to destroy his sub. It did not explode. His crewman drowned.",
+"praia",
+{
+"f": 2
+}
+],
+[
+"z",
+"z05",
+"He became America's first Japanese prisoner of the war. He asked to be allowed to die. The answer was no.",
+"prisioneiro",
+{}
+],
+[
+"z",
+"z06",
+"So Japan struck his name from its records. The official painting shows nine faces.",
+"pintura",
+{
+"f": 1
+}
+],
+[
+"z",
+"z07",
+"America put his submarine on a truck, and toured it through forty-one states to sell war bonds.",
+"rua",
+{
+"cartaz": 1
+}
+],
+[
+"z",
+"z08",
+"And according to his memoir, the man who asked to die tried to talk other prisoners out of it.",
+"campo",
+{
+"f": 4
+}
+],
+[
+"z",
+"z09b",
+"He came home, joined Toyota, and stayed silent for decades.",
+"fabrica",
+{}
+],
+[
+"z",
+"z09",
+"Fifty years later, he stood in front of that submarine in Texas, reportedly in tears.",
+"museu",
+{
+"f": 2
+}
+],
+[
+"z",
+"z10",
+"Japan's monument to that mission? It says nine.",
+"monumento",
+{
+"f": 2
+}
+]
+]
+}

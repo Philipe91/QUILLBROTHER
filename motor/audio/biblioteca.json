@@ -310,6 +310,117 @@
    "titulo": "Town Square Ambience.aif",
    "autor": "ftpalad",
    "fonte": "https://freesound.org/people/ftpalad/sounds/119934"
+  },
+  "mar": {
+   "arquivo": "sons/mar.mp3",
+   "categoria": "ambiente",
+   "nivel": -22,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Synthesized Ocean Waves / Wind",
+   "autor": "pandamir",
+   "fonte": "https://freesound.org/people/pandamir/sounds/194047"
+  },
+  "aviao": {
+   "arquivo": "sons/aviao.mp3",
+   "categoria": "guerra",
+   "nivel": -8,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Plane flying overhead.wav",
+   "autor": "gpag1",
+   "fonte": "https://freesound.org/people/gpag1/sounds/392486"
+  },
+  "splash": {
+   "arquivo": "sons/splash.mp3",
+   "categoria": "movimentacao",
+   "nivel": -8,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Water splash 5.wav",
+   "autor": "deleted_user_2104797",
+   "fonte": "https://freesound.org/people/deleted_user_2104797/sounds/164596"
+  },
+  "canhao_b": {
+   "arquivo": "sons/canhao_b.mp3",
+   "categoria": "guerra",
+   "nivel": -2,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Cannon shot",
+   "autor": "SamsterBirdies",
+   "fonte": "https://freesound.org/people/SamsterBirdies/sounds/467883"
+  },
+  "coracao": {
+   "arquivo": "sons/coracao.mp3",
+   "categoria": "tensao",
+   "nivel": -14,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Four Heartbeats HQ_BeatSmith.wav",
+   "autor": "Lunardrive",
+   "fonte": "https://freesound.org/people/Lunardrive/sounds/22416"
+  },
+  "multidao": {
+   "arquivo": "sons/multidao.mp3",
+   "categoria": "ambiente",
+   "nivel": -24,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "R25-05-Crowd Murmurs and Gasps in Courtroom.wav",
+   "autor": "craigsmith",
+   "fonte": "https://freesound.org/people/craigsmith/sounds/480773"
+  },
+  "radio": {
+   "arquivo": "sons/radio.mp3",
+   "categoria": "tensao",
+   "nivel": -22,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "FM Radio Static",
+   "autor": "caculo",
+   "fonte": "https://freesound.org/people/caculo/sounds/347039"
+  },
+  "trilha_tensao_c": {
+   "arquivo": "sons/trilha_tensao_c.mp3",
+   "categoria": "musica",
+   "nivel": -22,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Creepy Classical Vinyl Glitched",
+   "autor": "Mattc90",
+   "fonte": "https://freesound.org/people/Mattc90/sounds/219825"
+  },
+  "relogio_b": {
+   "arquivo": "sons/relogio_b.mp3",
+   "categoria": "documento",
+   "nivel": -18,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Clock Tick",
+   "autor": "FlashTrauma",
+   "fonte": "https://freesound.org/people/FlashTrauma/sounds/398275"
+  },
+  "soco": {
+   "arquivo": "sons/soco.mp3",
+   "categoria": "impacto",
+   "nivel": -6,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Punch_02.wav",
+   "autor": "thefsoundman",
+   "fonte": "https://freesound.org/people/thefsoundman/sounds/118513"
+  },
+  "passo_areia": {
+   "arquivo": "sons/passo_lama.mp3",
+   "categoria": "movimentacao",
+   "nivel": -14,
+   "modo": "fatias",
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Footsteps-Mud&Grass",
+   "autor": "jonccox",
+   "fonte": "https://freesound.org/people/jonccox/sounds/231317"
   }
  }
 }

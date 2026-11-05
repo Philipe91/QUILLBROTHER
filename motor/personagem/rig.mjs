@@ -69,6 +69,8 @@ function cabecaPerfil(pre, c) {
   const k = c.cabeca, cp = c.capacete, olho = "M6.5,-25 Q13,-31 19.5,-25.5 Q13,-20.8 6.5,-25 Z";
   const capacete = cp === "brodie"
     ? `<ellipse cx="2" cy="-40" rx="35" ry="5.4" fill="${c.capaceteEsc}" transform="rotate(-3 2 -40)"/><path fill="${c.capaceteEsc}" d="M-22,-42 Q-20,-64 2,-64 Q24,-64 25,-42 Z"/><path fill="${c.capaceteLuz}" d="M6,-61 Q20,-58 22,-43 L9,-43 Z"/>${vinco("M-20,-44 L25,-44", .35, 1.6)}`
+    : cp === "quepe"
+      ? `<path fill="${c.capaceteEsc}" d="M-22,-41 C-27,-58 -8,-66 12,-62 C24,-60 28,-52 25,-43 Z"/><rect x="-21" y="-46" width="44" height="7" fill="${c.capaceteLuz}"/><path fill="${S}" d="M10,-41 L33,-37 Q26,-33 8,-37 Z"/><circle cx="16" cy="-50" r="2.6" fill="${c.lona}"/>`
     : cp === "stahl"
       ? `${vinco("M-9,-34 C-6,-20 0,-6 9,3", .8, 2)}<path fill="${c.capaceteEsc}" d="M-26,-14 L-26,-38 Q-24,-64 2,-64 Q23,-64 25,-42 L27,-35 L35,-31 L22,-31 L-8,-31 L-10,-14 Z"/><path fill="${c.capaceteLuz}" opacity=".7" d="M6,-60 Q19,-57 21,-42 L9,-42 Z"/>`
       : `<path fill="${c.cabelo}" d="M-20,-20 C-26,-40 -14,-54 4,-52 C14,-52 19,-46 19,-40 C10,-44 2,-42 -3,-36 C-6,-30 -8,-24 -10,-16 Q-16,-12 -20,-20 Z"/>`;
@@ -135,7 +137,7 @@ export function personagem(pre, p, { x = 0, y = 0, e = 1, flip = false, arma = "
 
 export function cores(p) {
   const e = p.estilo, r = p.rosto ?? {}, a = p.acessorios ?? {};
-  return { ...e, cabeca: p.proporcao?.cabeca ?? 1.12, capacete: a.capacete ?? null, barba: r.barba ?? 0, bigode: !!r.bigode };
+  return { ...e, rugas: !!r.rugas, temMochila: !!a.mochila, cabeca: p.proporcao?.cabeca ?? 1.12, capacete: a.capacete ?? null, barba: r.barba ?? 0, bigode: !!r.bigode };
 }
 
 /* Busto em três quartos para o close: dois olhos, nariz e boca com volume. Os traços deslizam (fc) para dar a volta da cabeça. */
@@ -150,11 +152,11 @@ export function busto(pre, p, { x = 0, y = 0, e = 1 } = {}) {
   const q = (s) => s; // legibilidade
   return `<g transform="translate(${x},${y}) scale(${e})">
   <g id="${pre}-om">
-    <path fill="${c.mochila}" d="M-238,196 Q-244,136 -176,132 L-110,146 L-110,420 L-250,420 Z"/>${sombra("M-238,196 Q-244,136 -204,134 Q-214,270 -208,420 L-250,420 Z", .26)}
+    ${c.temMochila ? `<path fill="${c.mochila}" d="M-238,196 Q-244,136 -176,132 L-110,146 L-110,420 L-250,420 Z"/>${sombra("M-238,196 Q-244,136 -204,134 Q-214,270 -208,420 L-250,420 Z", .26)}` : ""}
     <path fill="${c.tunica}" d="M-230,420 C-236,300 -220,180 -150,142 C-90,118 -60,114 -48,108 L66,104 C90,118 130,126 180,152 C232,184 246,300 252,420 Z"/>
     ${sombra("M-230,420 C-236,300 -220,180 -150,142 C-120,130 -100,124 -84,120 C-110,220 -118,330 -112,420 Z", .22)}${brilho("M180,152 C232,184 246,300 252,420 L226,420 C222,320 206,216 160,150 Z", .17)}
     ${vinco("M-128,250 Q-70,282 -44,350", .22, 3)}${vinco("M120,230 Q150,290 148,380", .2, 3)}${vinco("M-30,330 Q40,352 110,330", .2, 3)}
-    <path d="M86,130 C110,220 90,330 64,420" fill="none" stroke="${c.lona}" stroke-width="17"/>${vinco("M78,131 C102,220 82,330 56,420", .22, 2.4)}
+    ${c.temMochila ? `<path d="M86,130 C110,220 90,330 64,420" fill="none" stroke="${c.lona}" stroke-width="17"/>${vinco("M78,131 C102,220 82,330 56,420", .22, 2.4)}` : ""}
     <rect x="-20" y="330" width="86" height="90" rx="3" fill="${S}" opacity=".12"/><path d="M-24,328 L70,328 L66,358 L22,372 L-20,358 Z" fill="${c.tunicaEsc}"/><circle cx="22" cy="356" r="5" fill="${c.couro}"/>
     <path fill="${c.pele}" d="M-52,62 L62,62 L70,128 L-60,128 Z"/><path fill="${c.peleSombra}" opacity=".65" d="M-52,62 L18,92 L30,128 L-60,128 Z"/>
     <path fill="${c.tunicaEsc}" d="M-70,108 Q0,140 78,104 L92,136 Q10,178 -82,140 Z"/>${vinco("M-60,118 Q4,146 82,114", .35, 2)}
@@ -166,6 +168,7 @@ export function busto(pre, p, { x = 0, y = 0, e = 1 } = {}) {
     <path fill="${c.peleSombra}" opacity=".5" d="M-88,-30 C-86,6 -82,40 -68,60 C-50,92 -14,118 18,116 C-8,96 -42,64 -48,26 C-52,0 -52,-40 -40,-70 C-66,-74 -86,-60 -88,-30 Z"/>
     ${c.barba ? pontosBarba(c) : ""}
     <g id="${pre}-fc">
+      ${c.rugas ? `<g fill="none" stroke="${c.peleSombra}" stroke-width="3" stroke-linecap="round" opacity=".85"><path d="M-30,-92 Q20,-104 84,-92"/><path d="M-22,-76 Q20,-86 76,-76"/><path d="M-46,-14 L-58,-22 M-46,-6 L-60,-6 M-44,4 L-56,12"/><path d="M-30,6 Q-6,20 18,8"/><path d="M60,6 Q76,14 92,4"/><path d="M4,40 Q-8,62 -6,84"/><path d="M78,40 Q86,60 82,80"/></g>` : ""}
       ${olho(0, o0, -6, -24, 12)}${olho(1, o1, 76, -25, 9)}
       <path fill="${c.peleSombra}" opacity=".6" d="M30,-30 C28,-6 22,12 24,28 C28,38 44,42 58,34 C66,30 62,22 54,14 C44,2 40,-14 42,-30 Z"/>
       <path fill="${c.pele}" d="M42,-30 C40,-14 44,2 54,14 C64,24 66,30 58,34 C52,37 46,36 42,34 C50,30 50,22 44,14 C36,2 34,-14 36,-30 Z"/>
@@ -180,8 +183,10 @@ export function busto(pre, p, { x = 0, y = 0, e = 1 } = {}) {
       <g id="${pre}-b4" opacity="0"><ellipse cx="36" cy="76" rx="26" ry="22" fill="${S}"/><ellipse cx="36" cy="88" rx="17" ry="8" fill="var(--vinho)"/><rect x="20" y="56" width="32" height="5" fill="var(--creme)" opacity=".85"/></g>
     </g>
     <g id="${pre}-cp">
-      <path d="M-76,-44 C-78,10 -52,90 18,118 C46,112 70,92 84,60" fill="none" stroke="${c.couro}" stroke-width="4.2" opacity=".6"/>
-      ${c.capacete ? `<path fill="${c.peleSombra}" opacity=".62" d="M-86,-74 Q10,-112 108,-66 C108,-54 106,-50 104,-46 Q10,-92 -84,-52 Z"/>
+      ${c.capacete && c.capacete !== "quepe" ? `<path d="M-76,-44 C-78,10 -52,90 18,118 C46,112 70,92 84,60" fill="none" stroke="${c.couro}" stroke-width="4.2" opacity=".6"/>` : ""}
+      ${c.capacete === "quepe" ? `<path fill="${c.cabelo}" d="M-92,-40 C-100,-90 -80,-110 -60,-112 L100,-112 C114,-90 112,-70 108,-52 C90,-84 50,-98 10,-98 C-30,-98 -60,-84 -74,-30 Z"/>
+      <path fill="${c.capaceteEsc}" d="M-104,-108 C-120,-196 -30,-226 40,-218 C110,-212 140,-168 128,-108 Z"/><path fill="${c.capaceteLuz}" opacity=".4" d="M40,-212 C94,-204 124,-168 118,-122 L74,-122 C84,-160 70,-194 40,-212 Z"/>
+      <rect x="-102" y="-128" width="228" height="26" rx="4" fill="${c.capaceteLuz}"/><path fill="${S}" d="M-28,-102 Q50,-112 136,-100 C128,-78 86,-68 40,-72 C6,-76 -20,-88 -28,-102 Z"/><circle cx="22" cy="-146" r="15" fill="${c.lona}"/><circle cx="22" cy="-146" r="8" fill="${c.capaceteEsc}"/>` : c.capacete ? `<path fill="${c.peleSombra}" opacity=".62" d="M-86,-74 Q10,-112 108,-66 C108,-54 106,-50 104,-46 Q10,-92 -84,-52 Z"/>
       <path fill="${c.capaceteEsc}" d="M-96,-92 C-96,-180 -40,-232 26,-228 C86,-226 122,-170 122,-92 Z"/>
       <path fill="${c.capaceteLuz}" d="M36,-218 C86,-210 112,-160 114,-104 L54,-100 C62,-140 56,-186 36,-218 Z"/>
       <ellipse cx="14" cy="-92" rx="146" ry="22" fill="${c.capaceteEsc}" transform="rotate(-3 14 -92)"/><path d="M-132,-88 Q14,-118 160,-100 Q14,-102 -132,-88 Z" fill="${c.capaceteLuz}" opacity=".55"/><path d="M-128,-82 Q14,-66 156,-96 Q18,-84 -128,-82 Z" fill="${S}" opacity=".45"/>` : `<path fill="${c.cabelo}" d="M-92,-40 C-108,-120 -40,-170 26,-164 C88,-160 120,-110 110,-56 C90,-90 50,-110 10,-110 C-30,-110 -60,-90 -74,-30 Z"/>`}

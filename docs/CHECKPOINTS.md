@@ -14,3 +14,5 @@ eed9a9d0cda22d001d1310df2c08bdfda36739b567a14ba8e3cb63bc63f746e9 *brother_quill/
 d6b1f6f86b0a78d2a73ad5ebc8a00dfbc9d62efb8f963b023844587fb379cb38 *brother_quill/take2_personagens_celular.mp4
 fcc245eb47b1c9095114ea8ac1c5f6cf0e1b609e029adc639d9c5f6d53a907c6 *longlens/mission_15s/dark_engine_15s_final.mp4
 ```
+
+| `checkpoint-v5` | V5 aprovada: personagens ilustrados, atuação e som por eventos (`motor/`, `estilos/v5_personagens`). Mesmo commit de `v5-candidate-01`. Merge no `master` ainda não autorizado. |
