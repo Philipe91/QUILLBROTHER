@@ -421,6 +421,46 @@
    "titulo": "Footsteps-Mud&Grass",
    "autor": "jonccox",
    "fonte": "https://freesound.org/people/jonccox/sounds/231317"
+  },
+  "record_scratch": {
+   "arquivo": "sons/record_scratch.mp3",
+   "categoria": "gag",
+   "nivel": -6,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Record Scratch #4",
+   "autor": "musicvision31",
+   "fonte": "https://freesound.org/people/musicvision31/sounds/431777"
+  },
+  "ding": {
+   "arquivo": "sons/ding.mp3",
+   "categoria": "gag",
+   "nivel": -10,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "bell ding 1.wav",
+   "autor": "5ro4",
+   "fonte": "https://freesound.org/people/5ro4/sounds/611113"
+  },
+  "erro": {
+   "arquivo": "sons/erro.mp3",
+   "categoria": "gag",
+   "nivel": -10,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "Wrong Answer",
+   "autor": "-Andreas",
+   "fonte": "https://freesound.org/people/-Andreas/sounds/648462"
+  },
+  "whoosh_3": {
+   "arquivo": "sons/whoosh_3.mp3",
+   "categoria": "transicao",
+   "nivel": -12,
+   "origem": "cc0",
+   "licenca": "cc0",
+   "titulo": "swosh-08.flac - 'stick cutting air'",
+   "autor": "qubodup",
+   "fonte": "https://freesound.org/people/qubodup/sounds/59995"
   }
  }
 }

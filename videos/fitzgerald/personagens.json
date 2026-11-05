@@ -1,0 +1,20 @@
+{
+  "descricao": "Interpretação ilustrada, sem pretensão de retrato. Só cores do design system.",
+  "personagens": {
+    "capitao": { "proporcao": { "cabeca": 1.14 }, "rosto": { "barba": 0, "bigode": false, "rugas": true },
+      "acessorios": { "capacete": "quepe", "mochila": false, "cantil": false, "arma": null },
+      "estilo": { "pele": "var(--luz)", "peleSombra": "var(--ocre)", "cabelo": "var(--mar)", "tunica": "var(--azul-noite)", "tunicaEsc": "var(--sombra)", "calca": "var(--azul-noite)", "calcaEsc": "var(--sombra)", "perneira": null, "bota": "var(--sombra)", "couro": "var(--terra)", "lona": "var(--ocre)", "cinto": "var(--sombra)", "mochila": "var(--terra)", "rolo": "var(--ocre)", "capaceteEsc": "var(--sombra)", "capaceteLuz": "var(--creme)" } },
+    "cooper": { "proporcao": { "cabeca": 1.14 }, "rosto": { "barba": 0, "bigode": false, "rugas": true },
+      "acessorios": { "capacete": "quepe", "mochila": false, "cantil": false, "arma": null },
+      "estilo": { "pele": "var(--luz)", "peleSombra": "var(--ocre)", "cabelo": "var(--terra)", "tunica": "var(--musgo)", "tunicaEsc": "var(--sombra)", "calca": "var(--musgo)", "calcaEsc": "var(--sombra)", "perneira": null, "bota": "var(--sombra)", "couro": "var(--terra)", "lona": "var(--ocre)", "cinto": "var(--sombra)", "mochila": "var(--terra)", "rolo": "var(--ocre)", "capaceteEsc": "var(--musgo)", "capaceteLuz": "var(--pergaminho)" } },
+    "imediato": { "proporcao": { "cabeca": 1.16 }, "rosto": { "barba": 0.2, "bigode": false },
+      "acessorios": { "capacete": null, "mochila": false, "cantil": false, "arma": null },
+      "estilo": { "pele": "var(--luz)", "peleSombra": "var(--ocre)", "cabelo": "var(--terra)", "tunica": "var(--terra)", "tunicaEsc": "var(--sombra)", "calca": "var(--sombra)", "calcaEsc": "var(--musgo)", "perneira": null, "bota": "var(--sombra)", "couro": "var(--terra)", "lona": "var(--ocre)", "cinto": "var(--sombra)", "mochila": "var(--terra)", "rolo": "var(--ocre)", "capaceteEsc": "var(--musgo)", "capaceteLuz": "var(--oliva)" } },
+    "marujo": { "proporcao": { "cabeca": 1.16 }, "rosto": { "barba": 0, "bigode": false },
+      "acessorios": { "capacete": null, "mochila": false, "cantil": false, "arma": null },
+      "estilo": { "pele": "var(--terra-clara)", "peleSombra": "var(--ocre)", "cabelo": "var(--terra)", "tunica": "var(--vinho)", "tunicaEsc": "var(--sombra)", "calca": "var(--azul-noite)", "calcaEsc": "var(--sombra)", "perneira": null, "bota": "var(--sombra)", "couro": "var(--terra)", "lona": "var(--ocre)", "cinto": "var(--terra)", "mochila": "var(--terra)", "rolo": "var(--ocre)", "capaceteEsc": "var(--musgo)", "capaceteLuz": "var(--oliva)" } },
+    "jovem": { "proporcao": { "cabeca": 1.18 }, "rosto": { "barba": 0, "bigode": false },
+      "acessorios": { "capacete": null, "mochila": false, "cantil": false, "arma": null },
+      "estilo": { "pele": "var(--luz)", "peleSombra": "var(--ocre)", "cabelo": "var(--oliva)", "tunica": "var(--oliva)", "tunicaEsc": "var(--musgo)", "calca": "var(--azul-noite)", "calcaEsc": "var(--sombra)", "perneira": null, "bota": "var(--sombra)", "couro": "var(--terra)", "lona": "var(--ocre)", "cinto": "var(--terra)", "mochila": "var(--terra)", "rolo": "var(--ocre)", "capaceteEsc": "var(--musgo)", "capaceteLuz": "var(--oliva)" } }
+  }
+}
